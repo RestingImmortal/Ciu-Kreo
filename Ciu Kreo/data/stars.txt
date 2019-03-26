@@ -1,0 +1,4 @@
+star "star/Kreo-Warp"
+	power 1000
+	wind 1000
+

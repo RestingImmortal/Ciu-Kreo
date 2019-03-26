@@ -1,0 +1,180 @@
+system "Ciu Kreo"
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	object All-Content
+		distance 1628
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 20
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 40
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 60
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 80
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 100
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 120
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 140
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 160
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 180
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 200
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 220
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 240
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 260
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 280
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 300
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 320
+		sprite planet/Kreo-Ring
+	object All-Content
+		distance 1628
+		offset 340
+		sprite planet/Kreo-Ring
+	object Deprecated
+		distance 814
+		sprite planet/ringworld
+	object Developer
+		distance 814
+		offset 120
+		sprite planet/ringworld
+	object Variants
+		distance 814
+		offset 240
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 20
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 40
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 60
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 80
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 100
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 140
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 160
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 180
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 200
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 220
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 260
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 280
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 300
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 320
+		sprite planet/ringworld
+	object
+		distance 814
+		offset 340
+		sprite planet/ringworld
+	object 
+		sprite star/Kreo-Warp
+	pos 0 -8090
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
+
+planet All-Content
+	attributes "deprecated control" kreo "variant control"
+	description ``
+	spaceport ``
+
+planet Deprecated
+	attributes kreo
+	description ``
+	spaceport ``
+
+planet Developer
+	attributes kreo
+	description ``
+	spaceport ``
+
+planet Variants
+	attributes kreo
+	description ``
+	spaceport ``
+

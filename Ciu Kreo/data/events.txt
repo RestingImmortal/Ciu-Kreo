@@ -1,0 +1,36 @@
+event "swizzle 0"
+	government Escort
+		swizzle 0
+
+event "swizzle 1"
+	government Escort
+		swizzle 1
+
+event "swizzle 2"
+	government Escort
+		swizzle 2
+
+event "swizzle 3"
+	government Escort
+		swizzle 3
+
+event "swizzle 4"
+	government Escort
+		swizzle 4
+
+event "swizzle 5"
+	government Escort
+		swizzle 5
+
+event "swizzle 6"
+	government Escort
+		swizzle 6
+
+
+event "visit all"
+	"visit planet" All-Content
+	"visit planet" Deprecated
+	"visit planet" Developer
+	"visit planet" Variants
+	visit "Ciu Kreo"
+

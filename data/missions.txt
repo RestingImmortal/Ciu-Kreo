@@ -1,0 +1,347 @@
+#Money Missions
+
+mission `'Money`
+	description `Give yourself an additional billion credits.`
+	job
+	name "Give Credits"
+	on accept
+		payment 1000000000
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Money: Active"
+
+mission `'Money On Landing`
+	description `While you have this mission active, you will gain an additional billion credits each time you land.`
+	job
+	name "Credits On Landing"
+	on accept
+		set "money on"
+	on fail
+		clear "money on"
+	repeat
+	source
+		attributes kreo
+	to complete
+		never
+	to offer
+		not "money on"
+
+mission "Money On Land"
+	invisible
+	landing
+	on offer
+		payment 1000000000
+	repeat
+	to offer
+		has "money on"
+
+
+#Swizzle Missions
+
+mission `'Swizzle 0`
+	description `Set your fleet's color to 0. This is the color used by Republic ships.`
+	job
+	name "Swizzle 0"
+	on accept
+		event "swizzle 0"
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Swizzle 0: Active"
+
+mission `'Swizzle 1`
+	description `Set your fleet's color to 1. This is the color used by Alpha ships.`
+	job
+	name "Swizzle 1"
+	on accept
+		event "swizzle 1"
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Swizzle 1: Active"
+
+mission `'Swizzle 2`
+	description `Set your fleet's color to 2. This is the color used by Free Worlds ships.`
+	job
+	name "Swizzle 2"
+	on accept
+		event "swizzle 2"
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Swizzle 2: Active"
+
+mission `'Swizzle 3`
+	description `Set your fleet's color to 3. This is the color used by Test Dummy ships.`
+	job
+	name "Swizzle 3"
+	on accept
+		event "swizzle 3"
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Swizzle 3: Active"
+
+mission `'Swizzle 4`
+	description `Set your fleet's color to 4. This is the color used by Syndicate ships.`
+	job
+	name "Swizzle 4"
+	on accept
+		event "swizzle 4"
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Swizzle 4: Active"
+
+mission `'Swizzle 5`
+	description `Set your fleet's color to 5. This is the color used by Merchant ships.`
+	job
+	name "Swizzle 5"
+	on accept
+		event "swizzle 5"
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Swizzle 5: Active"
+
+mission `'Swizzle 6`
+	description `Set your fleet's color to 6. This is the color used by Pirate ships.`
+	job
+	name "Swizzle 6"
+	on accept
+		event "swizzle 6"
+	repeat
+	source
+		attributes kreo
+	to fail
+		has "Swizzle 6: Active"
+
+
+#Visit Missions
+
+mission `'Visit All`
+	description `All systems and planets supported by Ciu Kreo will be marked as visited by the player.`
+	job
+	name "Visit All"
+	on accept
+		event "visit all"
+		set "all visited"
+	source
+		attributes kreo
+	to fail
+		has "Visit All: Active"
+
+
+#Deprecation Toggle Missions
+
+mission `'1Deprecated: Show`
+	description `Show deprecated outfits on all-content rings. Note that this takes a day to take effect.`
+	job
+	name "Deprecated: Show"
+	on accept
+		event "show deprecated"
+		set "deprecated shown"
+	repeat
+	source
+		attributes "deprecated control"
+	to offer
+		not "deprecated shown"
+
+mission `'1Deprecated: Hide`
+	description `Hide deprecated outfits on all-content rings. Note that this takes a day to take effect.`
+	job
+	name "Deprecated: Hide"
+	on accept
+		event "hide deprecated"
+		clear "deprecated shown"
+	repeat
+	source
+		attributes "deprecated control"
+	to offer
+		has "deprecated shown"
+
+
+#Variant Toggle Missions
+
+mission `'1Variants: Show`
+	description `Show variants of ships on all-content rings. Note that this takes a day to take effect.`
+	job
+	name "Variants: Show"
+	on accept
+		event "show variants"
+		set "variants shown"
+	repeat
+	source
+		attributes "variant control"
+	to offer
+		not "variants shown"
+
+mission `'1Variants: Hide`
+	description `Hide variants of ships from all-content rings. Note that this takes a day to take effect.`
+	job
+	name "Variants: Hide"
+	on accept
+		event "hide variants"
+		clear "variants shown"
+	repeat
+	source
+		attributes "variant control"
+	to offer
+		has "variants shown"
+
+
+#License Missions
+
+mission `'Licenses: Give All`
+	description `Give yourself all licenses. Note that this takes a day to take effect.`
+	job
+	name "Licenses: Give All"
+	on accept
+		set "all licenses given"
+		clear "all licenses removed"
+	repeat
+	source
+		attributes kreo
+	to offer
+		not "all licenses given"
+
+mission `'Licenses: Remove All`
+	description `Remove all licenses from yourself. Note that this takes a day to take effect.`
+	job
+	name "Licenses: Remove All"
+	on accept
+		set "all licenses removed"
+		clear "all licenses given"
+	repeat
+	source
+		attributes kreo
+	to offer
+		not "all licenses removed"
+
+mission "licenses give all - vanilla"
+	invisible
+	landing
+	on offer
+		clear "vanilla licenses given"
+		set "license: Carrier"
+		set "license: City-Ship"
+		set "license: Coalition"
+		set "license: Cruiser"
+		set "license: Heliarch"
+		set "license: Militia Carrier"
+		set "license: Navy"
+		set "license: Pilot's"
+		set "license: Remnant Capital"
+		set "license: Remnant"
+		set "license: Unfettered Militia"
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+		set "vanilla licenses removed"
+	repeat
+	to offer
+		has "all licenses given"
+		not "all licenses removed"
+
+mission "licenses remove all - vanilla"
+	invisible
+	landing
+	on offer
+		clear "license: Carrier"
+		clear "license: City-Ship"
+		clear "license: Coalition"
+		clear "license: Cruiser"
+		clear "license: Heliarch"
+		clear "license: Militia Carrier"
+		clear "license: Navy"
+		clear "license: Pilot's"
+		clear "license: Remnant Capital"
+		clear "license: Remnant"
+		clear "license: Unfettered Militia"
+		clear "license: Wanderer Military"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer"
+		clear "vanilla licenses removed"
+		set "vanilla licenses given"
+	repeat
+	to offer
+		has "all licenses removed"
+		not "all licenses given"
+
+mission "Visit Vanilla"
+	description `All vanilla systems and planets will be marked as visited by the player.`
+	job
+	on accept
+		event "visit vanilla"
+	source
+		attributes "vanilla kreo"
+	to fail
+		has "Visit Vanilla: Active"
+	to offer
+		not "all visited"
+
+
+#License Missions
+
+mission "Licenses: Give Vanilla"
+	description "Gives all vanilla licenses to the player."
+	job
+	on accept
+		clear "all licenses removed"
+		clear "vanilla licenses removed"
+		set "license: Carrier"
+		set "license: City-Ship"
+		set "license: Coalition"
+		set "license: Cruiser"
+		set "license: Heliarch"
+		set "license: Militia Carrier"
+		set "license: Navy"
+		set "license: Pilot's"
+		set "license: Remnant Capital"
+		set "license: Remnant"
+		set "license: Unfettered Militia"
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		set "license: Wanderer"
+		set "vanilla licenses given"
+	repeat
+	source 
+		attributes "vanilla kreo"
+	to offer
+		not "vanilla licenses given"
+
+mission "Licenses: Remove Vanilla"
+	description "Removes all vanilla licenses the player possesses."
+	job
+	on accept
+		clear "all licenses given"
+		clear "license: Carrier"
+		clear "license: City-Ship"
+		clear "license: Coalition"
+		clear "license: Cruiser"
+		clear "license: Heliarch"
+		clear "license: Militia Carrier"
+		clear "license: Navy"
+		clear "license: Pilot's"
+		clear "license: Remnant Capital"
+		clear "license: Remnant"
+		clear "license: Unfettered Militia"
+		clear "license: Wanderer Military"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer"
+		clear "vanilla licenses given"
+		set "vanilla licenses removed"
+	repeat
+	source 
+		attributes "vanilla kreo"
+	to offer
+		not "vanilla licenses removed"
+
