@@ -125,21 +125,6 @@ mission `'Swizzle 6`
 		has "Swizzle 6: Active"
 
 
-#Visit Missions
-
-mission `'Visit All`
-	description `All systems and planets supported by Ciu Kreo will be marked as visited by the player.`
-	job
-	name "Visit All"
-	on accept
-		event "visit all"
-		set "all visited"
-	source
-		attributes kreo
-	to fail
-		has "Visit All: Active"
-
-
 #Deprecation Toggle Missions
 
 mission `'1Deprecated: Show`
@@ -275,18 +260,6 @@ mission "licenses remove all - vanilla"
 	to offer
 		has "all licenses removed"
 		not "all licenses given"
-
-mission "Visit Vanilla"
-	description `All vanilla systems and planets will be marked as visited by the player.`
-	job
-	on accept
-		event "visit vanilla"
-	source
-		attributes "vanilla kreo"
-	to fail
-		has "Visit Vanilla: Active"
-	to offer
-		not "all visited"
 
 
 #License Missions

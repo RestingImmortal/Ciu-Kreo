@@ -125,21 +125,6 @@ mission `'Swizzle 6`
 		has "Swizzle 6: Active"
 
 
-#Visit Missions
-
-mission `'Visit All`
-	description `All systems and planets supported by Ciu Kreo will be marked as visited by the player.`
-	job
-	name "Visit All"
-	on accept
-		event "visit all"
-		set "all visited"
-	source
-		attributes kreo
-	to fail
-		has "Visit All: Active"
-
-
 #Deprecation Toggle Missions
 
 mission `'1Deprecated: Show`
