@@ -74,75 +74,75 @@ system "Ciu Kreo"
 		sprite planet/Kreo-Ring
 	object Deprecated
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Developer
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Variants
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object 
 		sprite star/Kreo-Warp
 	pos 0 -8090
