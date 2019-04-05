@@ -144,7 +144,7 @@ system "Ciu Kreo"
 		offset 340
 		sprite planet/Kreo-Ring-Inner
 	object 
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	pos 0 -8090
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
