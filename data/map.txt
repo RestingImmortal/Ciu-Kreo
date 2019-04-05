@@ -75,75 +75,75 @@ system "Ciu Kreo"
 		sprite planet/Kreo-Ring
 	object Deprecated
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Developer
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Variants
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object 
 		sprite star/Kreo-Warp
 	pos 0 -8090
@@ -237,75 +237,75 @@ system Coalition
 		sprite star/Kreo-Warp
 	object Coalition-Variants
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos -97 -7918
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -395,77 +395,77 @@ system Hai
 		sprite planet/Kreo-Ring
 	object Hai-Deprecated
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Hai-Gateway
 		sprite star/Kreo-Warp
 	object Hai-Variants
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos -78 -7878
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -555,77 +555,77 @@ system Human
 		sprite planet/Kreo-Ring
 	object Human-Deprecated
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Human-Gateway
 		sprite star/Kreo-Warp
 	object Human-Variants
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos -43 -7850
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -715,77 +715,77 @@ system Korath
 		sprite planet/Kreo-Ring
 	object Korath-Deprecated
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Korath-Gateway
 		sprite star/Kreo-Warp
 	object Korath-Variants
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos 0 -7840
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -875,77 +875,77 @@ system Other
 		sprite planet/Kreo-Ring
 	object Other-Variants
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		sprite star/Kreo-Warp
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos 43 -7850
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -1037,75 +1037,75 @@ system Remnant
 		sprite star/Kreo-Warp
 	object Remnant-Variants
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos 78 -7878
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -1202,77 +1202,77 @@ system "Vanilla"
 		sprite planet/Kreo-Ring
 	object Vanilla-Deprecated
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object Vanilla-Gateway
 		sprite star/Kreo-Warp
 	object Vanilla-Variants
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos 0 -7940
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -1364,75 +1364,75 @@ system Wanderer
 		sprite star/Kreo-Warp
 	object Wanderer-Variants
 		distance 814
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 20
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 40
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 60
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 80
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 100
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 120
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 140
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 160
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 180
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 200
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 220
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 240
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 260
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 280
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 300
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 320
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	object
 		distance 814
 		offset 340
-		sprite planet/ringworld
+		sprite planet/Kreo-Ring-Inner
 	pos 97 -7918
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
