@@ -10,7 +10,7 @@ mission `'Money`
 	source
 		attributes kreo
 	to fail
-		has "Money: Active"
+		has "'Money: Active"
 
 mission `'Money On Landing`
 	description `While you have this mission active, you will gain an additional billion credits each time you land.`
@@ -50,7 +50,7 @@ mission `'Swizzle 0`
 	source
 		attributes kreo
 	to fail
-		has "Swizzle 0: Active"
+		has "'Swizzle 0: Active"
 
 mission `'Swizzle 1`
 	description `Set your fleet's color to 1. This is the color used by Alpha ships.`
@@ -62,7 +62,7 @@ mission `'Swizzle 1`
 	source
 		attributes kreo
 	to fail
-		has "Swizzle 1: Active"
+		has "'Swizzle 1: Active"
 
 mission `'Swizzle 2`
 	description `Set your fleet's color to 2. This is the color used by Free Worlds ships.`
@@ -74,7 +74,7 @@ mission `'Swizzle 2`
 	source
 		attributes kreo
 	to fail
-		has "Swizzle 2: Active"
+		has "'Swizzle 2: Active"
 
 mission `'Swizzle 3`
 	description `Set your fleet's color to 3. This is the color used by Test Dummy ships.`
@@ -86,7 +86,7 @@ mission `'Swizzle 3`
 	source
 		attributes kreo
 	to fail
-		has "Swizzle 3: Active"
+		has "'Swizzle 3: Active"
 
 mission `'Swizzle 4`
 	description `Set your fleet's color to 4. This is the color used by Syndicate ships.`
@@ -98,7 +98,7 @@ mission `'Swizzle 4`
 	source
 		attributes kreo
 	to fail
-		has "Swizzle 4: Active"
+		has "'Swizzle 4: Active"
 
 mission `'Swizzle 5`
 	description `Set your fleet's color to 5. This is the color used by Merchant ships.`
@@ -110,7 +110,7 @@ mission `'Swizzle 5`
 	source
 		attributes kreo
 	to fail
-		has "Swizzle 5: Active"
+		has "'Swizzle 5: Active"
 
 mission `'Swizzle 6`
 	description `Set your fleet's color to 6. This is the color used by Pirate ships.`
@@ -122,7 +122,7 @@ mission `'Swizzle 6`
 	source
 		attributes kreo
 	to fail
-		has "Swizzle 6: Active"
+		has "'Swizzle 6: Active"
 
 
 #Visit Missions
@@ -137,7 +137,7 @@ mission `'Visit All`
 	source
 		attributes kreo
 	to fail
-		has "Visit All: Active"
+		has "'Visit All: Active"
 
 
 #Deprecation Toggle Missions
