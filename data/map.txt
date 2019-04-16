@@ -2,6 +2,23 @@ system "Ciu Kreo"
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object All-Content
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -144,8 +161,6 @@ system "Ciu Kreo"
 		distance 814
 		offset 340
 		sprite planet/Kreo-Ring-Inner
-	object 
-		sprite star/Kreo-Warp
 	pos 0 -8090
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -162,6 +177,21 @@ system Coalition
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Coalition
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -234,7 +264,7 @@ system Coalition
 		offset 340
 		sprite planet/Kreo-Ring
 	object Coalition-Gateway
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	object Coalition-Variants
 		distance 814
 		sprite planet/Kreo-Ring-Inner
@@ -322,6 +352,21 @@ system Hai
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Hai
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -397,7 +442,7 @@ system Hai
 		distance 814
 		sprite planet/Kreo-Ring-Inner
 	object Hai-Gateway
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	object Hai-Variants
 		distance 814
 		offset 180
@@ -482,6 +527,21 @@ system Human
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Human
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -557,7 +617,7 @@ system Human
 		distance 814
 		sprite planet/Kreo-Ring-Inner
 	object Human-Gateway
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	object Human-Variants
 		distance 814
 		offset 180
@@ -642,6 +702,21 @@ system Korath
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Korath
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -717,7 +792,7 @@ system Korath
 		distance 814
 		sprite planet/Kreo-Ring-Inner
 	object Korath-Gateway
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	object Korath-Variants
 		distance 814
 		offset 180
@@ -802,6 +877,23 @@ system Other
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Other
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -876,8 +968,6 @@ system Other
 	object Other-Variants
 		distance 814
 		sprite planet/Kreo-Ring-Inner
-	object
-		sprite star/Kreo-Warp
 	object
 		distance 814
 		offset 20
@@ -962,6 +1052,21 @@ system Remnant
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Remnant
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -1034,7 +1139,7 @@ system Remnant
 		offset 340
 		sprite planet/Kreo-Ring
 	object Remnant-Gateway
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	object Remnant-Variants
 		distance 814
 		sprite planet/Kreo-Ring-Inner
@@ -1129,6 +1234,21 @@ system "Vanilla"
 	link Other
 	link Remnant
 	link Wanderer
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Vanilla
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -1204,7 +1324,7 @@ system "Vanilla"
 		distance 814
 		sprite planet/Kreo-Ring-Inner
 	object Vanilla-Gateway
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	object Vanilla-Variants
 		distance 814
 		offset 180
@@ -1289,6 +1409,21 @@ system Wanderer
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Vanilla
+	object
+		distance 3252
+		sprite star/Kreo-Star
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 90
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 180
+	object
+		distance 3252
+		sprite star/Kreo-Star
+		offset 270
 	object Wanderer
 		distance 1628
 		sprite planet/Kreo-Ring
@@ -1361,7 +1496,7 @@ system Wanderer
 		offset 340
 		sprite planet/Kreo-Ring
 	object Wanderer-Gateway
-		sprite star/Kreo-Warp
+		sprite planet/Kreo-Warp
 	object Wanderer-Variants
 		distance 814
 		sprite planet/Kreo-Ring-Inner

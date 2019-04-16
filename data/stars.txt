@@ -1,4 +1,4 @@
-star "star/Kreo-Warp"
-	power 1000
-	wind 1000
+star "star/Kreo-Star"
+	power 750
+	wind 750
 
