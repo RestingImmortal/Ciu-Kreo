@@ -4,21 +4,21 @@ system "Ciu Kreo"
 	link Plugin
 	link Vanilla
 	object
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object All-Content
 		distance 1628
@@ -180,18 +180,18 @@ system Coalition
 	link Vanilla
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Coalition
 		distance 1628
@@ -355,18 +355,18 @@ system Hai
 	link Vanilla
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Hai
 		distance 1628
@@ -530,18 +530,18 @@ system Human
 	link Vanilla
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Human
 		distance 1628
@@ -705,18 +705,18 @@ system Korath
 	link Vanilla
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Korath
 		distance 1628
@@ -879,21 +879,21 @@ system Other
 	haze _menu/haze-kreo
 	link Vanilla
 	object
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Other
 		distance 1628
@@ -1054,21 +1054,21 @@ system "Plugin"
 	haze _menu/haze-kreo
 	link "Ciu Kreo"
 	object
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object "Plugin Kreo"
 		distance 1628
@@ -1230,18 +1230,18 @@ system Remnant
 	link Vanilla
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Remnant
 		distance 1628
@@ -1412,18 +1412,18 @@ system "Vanilla"
 	link Wanderer
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Vanilla
 		distance 1628
@@ -1587,18 +1587,18 @@ system Wanderer
 	link Vanilla
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 90
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 180
 	object
 		distance 3252
-		sprite star/Kreo-Star
+		sprite star/kreo-star
 		offset 270
 	object Wanderer
 		distance 1628
