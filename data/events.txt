@@ -1,72 +1,173 @@
-event "swizzle 0"
+#Swizzle events
+event `swizzle 0`
 	government Escort
 		swizzle 0
 
-event "swizzle 1"
+event `swizzle 1`
 	government Escort
 		swizzle 1
 
-event "swizzle 2"
+event `swizzle 2`
 	government Escort
 		swizzle 2
 
-event "swizzle 3"
+event `swizzle 3`
 	government Escort
 		swizzle 3
 
-event "swizzle 4"
+event `swizzle 4`
 	government Escort
 		swizzle 4
 
-event "swizzle 5"
+event `swizzle 5`
 	government Escort
 		swizzle 5
 
-event "swizzle 6"
+event `swizzle 6`
 	government Escort
 		swizzle 6
 
 
-event "visit all"
+#Toggle events
+
+#Deprecation toggle events
+event `show deprecated`
+	planet All-Content
+		add outfitter Hai-Deprecated
+		add outfitter Human-Deprecated
+		add outfitter Korath-Deprecated
+	planet Hai
+		add outfitter Hai-Deprecated
+	planet Human
+		add outfitter Human-Deprecated
+	planet Korath
+		add outfitter Korath-Deprecated
+	planet Vanilla
+		add outfitter Hai-Deprecated
+		add outfitter Human-Deprecated
+		add outfitter Korath-Deprecated
+
+event `hide deprecated`
+	planet All-Content
+		remove outfitter Hai-Deprecated
+		remove outfitter Human-Deprecated
+		remove outfitter Korath-Deprecated
+	planet Hai
+		remove outfitter Hai-Deprecated
+	planet Human
+		remove outfitter Human-Deprecated
+	planet Korath
+		remove outfitter Korath-Deprecated
+	planet Vanilla
+		remove outfitter Hai-Deprecated
+		remove outfitter Human-Deprecated
+		remove outfitter Korath-Deprecated
+
+#Variant toggle events
+event `show variants`
+	planet All-Content
+		add shipyard Coalition-Variants
+		add shipyard Hai-Variants
+		add shipyard Human-Variants
+		add shipyard Korath-Variants
+		add shipyard Other-Variants
+		add shipyard Remnant-Variants
+		add shipyard Wanderer-Variants
+	planet Coalition
+		add shipyard Coalition-Variants
+	planet Hai
+		add shipyard Hai-Variants
+	planet Human
+		add shipyard Human-Variants
+	planet Korath
+		add shipyard Korath-Variants
+	planet Other
+		add shipyard Other-Variants
+	planet Remnant
+		add shipyard Remnant-Variants
+	planet Vanilla
+		add shipyard Coalition-Variants
+		add shipyard Hai-Variants
+		add shipyard Human-Variants
+		add shipyard Korath-Variants
+		add shipyard Other-Variants
+		add shipyard Remnant-Variants
+		add shipyard Wanderer-Variants
+	planet Wanderer
+		add shipyard Wanderer-Variants
+
+event `hide variants`
+	planet All-Content
+		remove shipyard Coalition-Variants
+		remove shipyard Hai-Variants
+		remove shipyard Human-Variants
+		remove shipyard Korath-Variants
+		remove shipyard Other-Variants
+		remove shipyard Remnant-Variants
+		remove shipyard Wanderer-Variants
+	planet Coalition
+		remove shipyard Coalition-Variants
+	planet Hai
+		remove shipyard Hai-Variants
+	planet Human
+		remove shipyard Human-Variants
+	planet Korath
+		remove shipyard Korath-Variants
+	planet Other
+		remove shipyard Other-Variants
+	planet Remnant
+		remove shipyard Remnant-Variants
+	planet Vanilla
+		remove shipyard Coalition-Variants
+		remove shipyard Hai-Variants
+		remove shipyard Human-Variants
+		remove shipyard Korath-Variants
+		remove shipyard Other-Variants
+		remove shipyard Remnant-Variants
+		remove shipyard Wanderer-Variants
+	planet Wanderer
+		remove shipyard Wanderer-Variants
+
+
+#Visit events
+
+#Visit all event
+event `visit all`
+	#Ciu Kreo visits
 	"visit planet" All-Content
+	"visit planet" Coalition
+	"visit planet" Coalition-Variants
 	"visit planet" Deprecated
 	"visit planet" Developer
+	"visit planet" Hai
+	"visit planet" Hai-Deprecated
+	"visit planet" Hai-Variants
+	"visit planet" Human
+	"visit planet" Human-Deprecated
+	"visit planet" Human-Variants
+	"visit planet" Korath
+	"visit planet" Korath-Deprecated
+	"visit planet" Korath-Variants
+	"visit planet" Other
+	"visit planet" Other-Variants
+	"visit planet" Remnant
+	"visit planet" Remnant-Variants
+	"visit planet" Vanilla
+	"visit planet" Vanilla-Deprecated
+	"visit planet" Vanilla-Variants
 	"visit planet" Variants
+	"visit planet" Wanderer
+	"visit planet" Wanderer-Variants
 	visit "Ciu Kreo"
-
-event "show deprecated"
-	planet All-Content
-		add outfitter Hai-Deprecated
-		add outfitter Human-Deprecated
-		add outfitter Korath-Deprecated
-
-event "hide deprecated"
-	planet All-Content
-		remove outfitter Hai-Deprecated
-		remove outfitter Human-Deprecated
-		remove outfitter Korath-Deprecated
-
-event "show variants"
-	planet All-Content
-		add shipyard Coalition-Variants
-		add shipyard Hai-Variants
-		add shipyard Human-Variants
-		add shipyard Korath-Variants
-		add shipyard Other-Variants
-		add shipyard Remnant-Variants
-		add shipyard Wanderer-Variants
-
-event "hide variants"
-	planet All-Content
-		remove shipyard Coalition-Variants
-		remove shipyard Hai-Variants
-		remove shipyard Human-Variants
-		remove shipyard Korath-Variants
-		remove shipyard Other-Variants
-		remove shipyard Remnant-Variants
-		remove shipyard Wanderer-Variants
-
-event "visit all"
+	visit Coalition
+	visit Hai
+	visit Human
+	visit Korath
+	visit Other
+	visit Remnant
+	visit Vanilla
+	visit Wanderer
+	#Vanilla visits
 	"visit planet" "Ablub's Invention"
 	"visit planet" "Alta Hai"
 	"visit planet" "Arachne Station"
@@ -771,7 +872,9 @@ event "visit all"
 	visit Zubenelgenubi
 	visit Zubeneschamali
 
-event "visit all" 
+#Vanilla visit event
+event `visit vanilla`
+	#Vanilla Ciu Kreo visits
 	"visit planet" Coalition
 	"visit planet" Coalition-Variants
 	"visit planet" Hai
@@ -800,87 +903,7 @@ event "visit all"
 	visit Remnant
 	visit Vanilla
 	visit Wanderer
-
-
-event "show deprecated"
-	planet Hai
-		add outfitter Hai-Deprecated
-	planet Human
-		add outfitter Human-Deprecated
-	planet Korath
-		add outfitter Korath-Deprecated
-	planet Vanilla
-		add outfitter Hai-Deprecated
-		add outfitter Human-Deprecated
-		add outfitter Korath-Deprecated
-
-event "hide deprecated"
-	planet Hai
-		remove outfitter Hai-Deprecated
-	planet Human
-		remove outfitter Human-Deprecated
-	planet Korath
-		remove outfitter Korath-Deprecated
-	planet Vanilla
-		remove outfitter Hai-Deprecated
-		remove outfitter Human-Deprecated
-		remove outfitter Korath-Deprecated
-
-
-#Shipyard Events
-
-event "show variants"
-	planet Coalition
-		add shipyard Coalition-Variants
-	planet Hai
-		add shipyard Hai-Variants
-	planet Human
-		add shipyard Human-Variants
-	planet Korath
-		add shipyard Korath-Variants
-	planet Other
-		add shipyard Other-Variants
-	planet Remnant
-		add shipyard Remnant-Variants
-	planet Vanilla
-		add shipyard Coalition-Variants
-		add shipyard Hai-Variants
-		add shipyard Human-Variants
-		add shipyard Korath-Variants
-		add shipyard Other-Variants
-		add shipyard Remnant-Variants
-		add shipyard Wanderer-Variants
-	planet Wanderer
-		add shipyard Wanderer-Variants
-
-event "hide variants"
-	planet Coalition
-		remove shipyard Coalition-Variants
-	planet Hai
-		remove shipyard Hai-Variants
-	planet Human
-		remove shipyard Human-Variants
-	planet Korath
-		remove shipyard Korath-Variants
-	planet Other
-		remove shipyard Other-Variants
-	planet Remnant
-		remove shipyard Remnant-Variants
-	planet Vanilla
-		remove shipyard Coalition-Variants
-		remove shipyard Hai-Variants
-		remove shipyard Human-Variants
-		remove shipyard Korath-Variants
-		remove shipyard Other-Variants
-		remove shipyard Remnant-Variants
-		remove shipyard Wanderer-Variants
-	planet Wanderer
-		remove shipyard Wanderer-Variants
-
-
-#Visit Events
-
-event "visit vanilla"
+	#Vanilla visits
 	"visit planet" "Ablub's Invention"
 	"visit planet" "Alta Hai"
 	"visit planet" "Arachne Station"
@@ -1584,34 +1607,4 @@ event "visit vanilla"
 	visit Zosma
 	visit Zubenelgenubi
 	visit Zubeneschamali
-
-event "visit vanilla" 
-	"visit planet" Coalition
-	"visit planet" Coalition-Variants
-	"visit planet" Hai
-	"visit planet" Hai-Deprecated
-	"visit planet" Hai-Variants
-	"visit planet" Human
-	"visit planet" Human-Deprecated
-	"visit planet" Human-Variants
-	"visit planet" Korath
-	"visit planet" Korath-Deprecated
-	"visit planet" Korath-Variants
-	"visit planet" Other
-	"visit planet" Other-Variants
-	"visit planet" Remnant
-	"visit planet" Remnant-Variants
-	"visit planet" Vanilla
-	"visit planet" Vanilla-Deprecated
-	"visit planet" Vanilla-Variants
-	"visit planet" Wanderer
-	"visit planet" Wanderer-Variants
-	visit Coalition
-	visit Hai
-	visit Human
-	visit Korath
-	visit Other
-	visit Remnant
-	visit Vanilla
-	visit Wanderer
 
