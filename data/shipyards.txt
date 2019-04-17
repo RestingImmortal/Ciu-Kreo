@@ -375,3 +375,6 @@ shipyard Wanderer-Variants
 	"Winter Gale (Heavy)"
 	"Winter Gale (Missile)"
 
+shipyard Developer
+	"Reaver Firebird"
+

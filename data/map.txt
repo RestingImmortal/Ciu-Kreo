@@ -1828,6 +1828,7 @@ planet Deprecated
 planet Developer
 	attributes kreo
 	description ``
+	shipyard Developer
 	spaceport ``
 
 planet Variants
