@@ -1,0 +1,36 @@
+outfit "Senmorta"
+	category "Special"
+	"asteroid scan power" 10000
+	"capture attack" 10000
+	"capture defense" 10000
+	"bunks" 10000
+	"cargo scan power" 10000
+	"cargo scan speed" 10000
+	"cloak" 1
+	"cooling" 10000
+	"energy capacity" 10000
+	"energy generation" 10000
+	"engine capacity" 10000
+	"fuel capacity" 1000
+	"heat dissipation" 10000
+	"gaslining" 1
+	"hull repair rate" 10000
+	"hyperdrive" 1
+	"jump drive" 1
+	"jump fuel" 1
+	"jump speed" 500
+	"outfit scan power" 10000
+	"outfit scan speed" 10000
+	"outfit space" 10000
+	"quantum keystone" 1
+	"radar jamming" 10000
+	"ramscoop" 100
+	"scan interference" 10000
+	"shield generation" 10000
+	"solar collection" 10000
+	"tactical scan power" 10000
+	"unplunderable" 1
+	"weapon capacity" 10000
+	hull 600000
+	shields 600000
+

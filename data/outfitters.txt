@@ -365,3 +365,6 @@ outfitter Wanderer
 	"White Sun Reactor"
 	"Yellow Sun Reactor"
 
+outfitter Developer
+	Senmorta
+
