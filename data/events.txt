@@ -137,8 +137,8 @@ event `visit all`
 	"visit planet" `Ciu Kreo`
 	"visit planet" Coalition
 	"visit planet" Coalition-Variants
-	"visit planet" Deprecated
-	"visit planet" Developer
+	"visit planet" `Deprecated Kreo`
+	"visit planet" `Developer Kreo`
 	"visit planet" Hai
 	"visit planet" Hai-Deprecated
 	"visit planet" Hai-Variants
@@ -155,7 +155,7 @@ event `visit all`
 	"visit planet" Vanilla
 	"visit planet" Vanilla-Deprecated
 	"visit planet" Vanilla-Variants
-	"visit planet" Variants
+	"visit planet" `Variant Kreo`
 	"visit planet" Wanderer
 	"visit planet" Wanderer-Variants
 	visit "Ciu Kreo"
