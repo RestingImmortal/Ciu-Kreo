@@ -32,7 +32,7 @@ event `swizzle 6`
 
 #Deprecation toggle events
 event `show deprecated`
-	planet All-Content
+	planet `Ciu Kreo`
 		add outfitter Hai-Deprecated
 		add outfitter Human-Deprecated
 		add outfitter Korath-Deprecated
@@ -48,7 +48,7 @@ event `show deprecated`
 		add outfitter Korath-Deprecated
 
 event `hide deprecated`
-	planet All-Content
+	planet `Ciu Kreo`
 		remove outfitter Hai-Deprecated
 		remove outfitter Human-Deprecated
 		remove outfitter Korath-Deprecated
@@ -65,7 +65,7 @@ event `hide deprecated`
 
 #Variant toggle events
 event `show variants`
-	planet All-Content
+	planet `Ciu Kreo`
 		add shipyard Coalition-Variants
 		add shipyard Hai-Variants
 		add shipyard Human-Variants
@@ -97,7 +97,7 @@ event `show variants`
 		add shipyard Wanderer-Variants
 
 event `hide variants`
-	planet All-Content
+	planet `Ciu Kreo`
 		remove shipyard Coalition-Variants
 		remove shipyard Hai-Variants
 		remove shipyard Human-Variants
@@ -134,7 +134,7 @@ event `hide variants`
 #Visit all event
 event `visit all`
 	#Ciu Kreo visits
-	"visit planet" All-Content
+	"visit planet" `Ciu Kreo`
 	"visit planet" Coalition
 	"visit planet" Coalition-Variants
 	"visit planet" Deprecated
