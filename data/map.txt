@@ -1657,13 +1657,13 @@ system "Vanilla"
 	object Vanilla-Deprecated
 		distance 802
 		sprite planet/kreo-ring-inner
+	object `Vanilla Kreo`
+		distance 1628
+		sprite planet/kreo-ring
 	object Vanilla-Variants
 		distance 802
 		offset 180
 		sprite planet/kreo-ring-inner
-	object Vanilla
-		distance 1628
-		sprite planet/kreo-ring
 	object Vanilla
 		distance 1628
 		offset 20
@@ -1824,7 +1824,15 @@ system "Vanilla"
 	trade Plastic 1000
 
 
-planet Vanilla
+planet Vanilla-Deprecated
+	attributes "deprecated control" "vanilla kreo" kreo
+	description ""
+	outfitter Hai-Deprecated
+	outfitter Human-Deprecated
+	outfitter Korath-Deprecated
+	spaceport ""
+
+planet `Vanilla Kreo`
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description ""
 	outfitter Coalition
@@ -1841,14 +1849,6 @@ planet Vanilla
 	shipyard Other
 	shipyard Remnant
 	shipyard Wanderer
-	spaceport ""
-
-planet Vanilla-Deprecated
-	attributes "deprecated control" "vanilla kreo" kreo
-	description ""
-	outfitter Hai-Deprecated
-	outfitter Human-Deprecated
-	outfitter Korath-Deprecated
 	spaceport ""
 
 planet Vanilla-Variants

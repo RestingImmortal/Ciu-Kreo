@@ -152,8 +152,8 @@ event `visit all`
 	"visit planet" Other-Variants
 	"visit planet" Remnant
 	"visit planet" Remnant-Variants
-	"visit planet" Vanilla
 	"visit planet" Vanilla-Deprecated
+	"visit planet" `Vanilla Kreo`
 	"visit planet" Vanilla-Variants
 	"visit planet" `Variant Kreo`
 	"visit planet" Wanderer
@@ -890,8 +890,8 @@ event `visit vanilla`
 	"visit planet" Other-Variants
 	"visit planet" Remnant
 	"visit planet" Remnant-Variants
-	"visit planet" Vanilla
 	"visit planet" Vanilla-Deprecated
+	"visit planet" `Vanilla Kreo`
 	"visit planet" Vanilla-Variants
 	"visit planet" Wanderer
 	"visit planet" Wanderer-Variants
