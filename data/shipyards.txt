@@ -1,3 +1,9 @@
+#Ciu Kreo shipyards
+shipyard Developer
+	"Reaver Firebird"
+
+
+#Vanilla shipyards
 shipyard Coalition
 	"Arach Courier"
 	"Arach Freighter"
@@ -25,22 +31,6 @@ shipyard Coalition-Variants
 	"Heliarch Punisher (Missile)"
 	"Heliarch Punisher (Scrappy)"
 
-shipyard Other
-	"Archon"
-	"Lampyrid-Class Transport"
-	"Nanobot"
-	"Pug Arfecta"
-	"Pug Enfolta"
-	"Pug Maboro"
-	"Pug Zibruka"
-	"Quarg Skylark"
-	"Quarg Wardragon"
-	"Void Sprite"
-
-shipyard Other-Variants
-	"Archon (Cloaked)"
-	"Quarg Wardragon" "Quarg Wardragon"
-	"Void Sprite (Infant)"
 
 shipyard Hai
 	"Aphid"
@@ -73,6 +63,7 @@ shipyard Hai-Variants
 	"Violin Spider (Pulse)"
 	"Water Bug (Jump)"
 	"Water Bug (Pulse)"
+
 
 shipyard Human
 	"Aerie"
@@ -286,6 +277,7 @@ shipyard Human-Variants
 	Kestrel Kestrel
 	Vanguard "Pointedstick"
 
+
 shipyard Korath
 	"Far Lek 14"
 	"Far Osk 27"
@@ -323,6 +315,25 @@ shipyard Korath-Variants
 	"Tek Far 71 - Lek (Close Quarters)"
 	"Tek Far 78 - Osk (Close Quarters)"
 
+
+shipyard Other
+	"Archon"
+	"Lampyrid-Class Transport"
+	"Nanobot"
+	"Pug Arfecta"
+	"Pug Enfolta"
+	"Pug Maboro"
+	"Pug Zibruka"
+	"Quarg Skylark"
+	"Quarg Wardragon"
+	"Void Sprite"
+
+shipyard Other-Variants
+	"Archon (Cloaked)"
+	"Quarg Wardragon" "Quarg Wardragon"
+	"Void Sprite (Infant)"
+
+
 shipyard Remnant
 	"Albatross"
 	"Gascraft"
@@ -343,6 +354,7 @@ shipyard Remnant-Variants
 	"Starling (Hunter)"
 	"Starling (Sniper)"
 	"Starling (Thrasher)"
+
 
 shipyard Wanderer
 	"Autumn Leaf"
@@ -374,7 +386,4 @@ shipyard Wanderer-Variants
 	"Tempest (Missile)"
 	"Winter Gale (Heavy)"
 	"Winter Gale (Missile)"
-
-shipyard Developer
-	"Reaver Firebird"
 

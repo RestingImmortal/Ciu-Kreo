@@ -1,27 +1,9 @@
-#Deprecated Outfitters
-
-outfitter Hai-Deprecated
-	"Bullfrog Anti-Missile Turret"
-	"Chameleon Anti-Missile Turret"
-
-outfitter Human-Deprecated
-	"Mass Expansion"
-	"NDR-114 Android"
-	"Reverse Thruster"
-
-outfitter Korath-Deprecated
-	"Korath Ark'parat Steering"
-	"Korath Ark'torbal Thruster"
-	"Korath Heat Shunt"
-	"Korath Jak'parat Steering"
-	"Korath Jak'torbal Thruster"
-	"Korath Shield Generator"
-	"Korath Tek'far Reactor"
-	"Korath Tek'nel Reactor"
+#Ciu Kreo outfitters
+outfitter Developer
+	Senmorta
 
 
-#Regular Outfitters
-
+#Vanilla outfitters
 outfitter Coalition
 	"Active Finisher"
 	"Bombardment Cannon"
@@ -49,35 +31,43 @@ outfitter Coalition
 	"Small Steering Module"
 	"Small Thrust Module"
 
-outfitter Other
-	"Antimatter Core"
-	"Drak Anti-Missile Field"
-	"Drak Antimatter Cannon"
-	"Drak Antimatter Fragment"
-	"Drak Distancer"
-	"Drak Draining Field"
-	"Drak Turret"
-	"Intrusion Countermeasures"
-	"Medium Graviton Steering"
-	"Medium Graviton Thruster"
-	"Nano Strike"
-	"Nanotech Battery"
-	"Pug Akfar Steering"
-	"Pug Akfar Thruster"
-	"Pug Anti-Missile"
-	"Pug Biodefenses"
-	"Pug Cormet Steering"
-	"Pug Cormet Thruster"
-	"Pug Gridfire Turret"
-	"Pug Lohmar Steering"
-	"Pug Lohmar Thruster"
-	"Pug Seeker"
-	"Pug Zapper Turret"
-	"Pug Zapper"
-	"Quantum Shield Generator"
-	"Quarg Anti-Missile"
-	"Tier 3 Anti-Missile"
-	Mouthparts?
+outfitter Hai
+	"Boulder Reactor"
+	"Bullfrog Anti-Missile"
+	"Chameleon Anti-Missile"
+	"Geode Reactor"
+	"Hai Chasm Batteries"
+	"Hai Corundum Regenerator"
+	"Hai Diamond Regenerator"
+	"Hai Fissure Batteries"
+	"Hai Gorge Batteries"
+	"Hai Ravine Batteries"
+	"Hai Tracker Pod"
+	"Hai Tracker"
+	"Hai Valley Batteries"
+	"Hai Williwaw Cooling"
+	"Ion Cannon"
+	"Pebble Core"
+	"Pulse Cannon"
+	"Pulse Rifle"
+	"Pulse Turret"
+	"Quantum Keystone"
+	"Railgun Slug"
+	"Railgun"
+	"rslug"
+	"Sand Cell"
+	"Tracker Storage Pod"
+	`"Baellie" Atomic Engines`
+	`"Basrem" Atomic Steering`
+	`"Basrem" Atomic Thruster`
+	`"Benga" Atomic Steering`
+	`"Benga" Atomic Thruster`
+	`"Biroo" Atomic Steering`
+	`"Biroo" Atomic Thruster`
+	`"Bondir" Atomic Steering`
+	`"Bondir" Atomic Thruster`
+	`"Bufaer" Atomic Steering`
+	`"Bufaer" Atomic Thruster`
 
 outfitter Human
 	"A120 Atomic Thruster"
@@ -225,44 +215,6 @@ outfitter Human
 	"X5200 Ion Steering"
 	"X5700 Ion Thruster"
 
-outfitter Hai
-	"Boulder Reactor"
-	"Bullfrog Anti-Missile"
-	"Chameleon Anti-Missile"
-	"Geode Reactor"
-	"Hai Chasm Batteries"
-	"Hai Corundum Regenerator"
-	"Hai Diamond Regenerator"
-	"Hai Fissure Batteries"
-	"Hai Gorge Batteries"
-	"Hai Ravine Batteries"
-	"Hai Tracker Pod"
-	"Hai Tracker"
-	"Hai Valley Batteries"
-	"Hai Williwaw Cooling"
-	"Ion Cannon"
-	"Pebble Core"
-	"Pulse Cannon"
-	"Pulse Rifle"
-	"Pulse Turret"
-	"Quantum Keystone"
-	"Railgun Slug"
-	"Railgun"
-	"rslug"
-	"Sand Cell"
-	"Tracker Storage Pod"
-	`"Baellie" Atomic Engines`
-	`"Basrem" Atomic Steering`
-	`"Basrem" Atomic Thruster`
-	`"Benga" Atomic Steering`
-	`"Benga" Atomic Thruster`
-	`"Biroo" Atomic Steering`
-	`"Biroo" Atomic Thruster`
-	`"Bondir" Atomic Steering`
-	`"Bondir" Atomic Thruster`
-	`"Bufaer" Atomic Steering`
-	`"Bufaer" Atomic Thruster`
-
 outfitter Korath
 	"Command Center"
 	"Control Transceiver"
@@ -307,6 +259,36 @@ outfitter Korath
 	"Thruster (Planetary Class)"
 	"Thruster (Stellar Class)"
 	"Triple Plasma Core"
+
+outfitter Other
+	"Antimatter Core"
+	"Drak Anti-Missile Field"
+	"Drak Antimatter Cannon"
+	"Drak Antimatter Fragment"
+	"Drak Distancer"
+	"Drak Draining Field"
+	"Drak Turret"
+	"Intrusion Countermeasures"
+	"Medium Graviton Steering"
+	"Medium Graviton Thruster"
+	"Nano Strike"
+	"Nanotech Battery"
+	"Pug Akfar Steering"
+	"Pug Akfar Thruster"
+	"Pug Anti-Missile"
+	"Pug Biodefenses"
+	"Pug Cormet Steering"
+	"Pug Cormet Thruster"
+	"Pug Gridfire Turret"
+	"Pug Lohmar Steering"
+	"Pug Lohmar Thruster"
+	"Pug Seeker"
+	"Pug Zapper Turret"
+	"Pug Zapper"
+	"Quantum Shield Generator"
+	"Quarg Anti-Missile"
+	"Tier 3 Anti-Missile"
+	Mouthparts?
 
 outfitter Remnant
 	"Aeon Cell"
@@ -365,6 +347,24 @@ outfitter Wanderer
 	"White Sun Reactor"
 	"Yellow Sun Reactor"
 
-outfitter Developer
-	Senmorta
+
+#Vanilla deprecated outfitters
+outfitter Hai-Deprecated
+	"Bullfrog Anti-Missile Turret"
+	"Chameleon Anti-Missile Turret"
+
+outfitter Human-Deprecated
+	"Mass Expansion"
+	"NDR-114 Android"
+	"Reverse Thruster"
+
+outfitter Korath-Deprecated
+	"Korath Ark'parat Steering"
+	"Korath Ark'torbal Thruster"
+	"Korath Heat Shunt"
+	"Korath Jak'parat Steering"
+	"Korath Jak'torbal Thruster"
+	"Korath Shield Generator"
+	"Korath Tek'far Reactor"
+	"Korath Tek'nel Reactor"
 

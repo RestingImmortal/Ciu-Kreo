@@ -1,167 +1,193 @@
+#system
+#	government
+#	haze
+#	link
+#	wormhole
+#	inner ring important
+#	outer ring
+#	inner ring empty
+#	stars
+#	pos
+#	trade "" 1000
+#
+#planet
+#	attributes
+#	description
+#	outfitter
+#	shipyard
+#	spaceport
+#
+#system (wormhole systems)
+#	add object <wormhole name>
+#		distance 3600
+#		sprite planet/kreo-warp
+
+
+
 system "Ciu Kreo"
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Plugin
 	link Vanilla
-	object
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object All-Content
-		distance 1628
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object All-Content
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
 	object Deprecated
 		distance 802
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object Developer
 		distance 802
 		offset 120
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object Variants
 		distance 802
 		offset 240
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
+	object All-Content
+		distance 1628
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object All-Content
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
 	object
 		distance 802
 		offset 20
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 40
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 60
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 80
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 100
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 140
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 160
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 180
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 200
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 220
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 260
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 280
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 300
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 320
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 340
-		sprite planet/Kreo-Ring-Inner
+		sprite planet/kreo-ring-inner
+	object
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
 	pos 0 -8090
 	trade "Heavy Metals" 1000
 	trade "Luxury Goods" 1000
@@ -174,1629 +200,6 @@ system "Ciu Kreo"
 	trade Metal 1000
 	trade Plastic 1000
 
-system Coalition
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link Vanilla
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Coalition
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Coalition
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Coalition-Gateway
-		sprite planet/Kreo-Warp
-	object Coalition-Variants
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos -97 -7918
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system Hai
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link Vanilla
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Hai
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Hai
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Hai-Deprecated
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object Hai-Gateway
-		sprite planet/Kreo-Warp
-	object Hai-Variants
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos -78 -7878
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system Human
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link Vanilla
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Human
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Human
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Human-Deprecated
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object Human-Gateway
-		sprite planet/Kreo-Warp
-	object Human-Variants
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos -43 -7850
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system Korath
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link Vanilla
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Korath
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Korath
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Korath-Deprecated
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object Korath-Gateway
-		sprite planet/Kreo-Warp
-	object Korath-Variants
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos 0 -7840
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system Other
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link Vanilla
-	object
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Other
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Other
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Other-Variants
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos 43 -7850
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system "Plugin"
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link "Ciu Kreo"
-	object
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object "Plugin Kreo"
-		distance 1628
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object "Plugin Kreo"
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object "Plugin Deprecated"
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object "Plugin Developer"
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object "Plugin Variants"
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos 0 -8240
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system Remnant
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link Vanilla
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Remnant
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Remnant
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Remnant-Gateway
-		sprite planet/Kreo-Warp
-	object Remnant-Variants
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos 78 -7878
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system "Vanilla"
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link "Ciu Kreo"
-	link Coalition
-	link Hai
-	link Human
-	link Korath
-	link Other
-	link Remnant
-	link Wanderer
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Vanilla
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Vanilla
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Vanilla-Deprecated
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object Vanilla-Gateway
-		sprite planet/Kreo-Warp
-	object Vanilla-Variants
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos 0 -7940
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-system Wanderer
-	government "Ciu Kreo"
-	haze _menu/haze-kreo
-	link Vanilla
-	object
-		distance 3252
-		sprite star/Kreo-Star
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 90
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 180
-	object
-		distance 3252
-		sprite star/Kreo-Star
-		offset 270
-	object Wanderer
-		distance 1628
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 20
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 40
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 60
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 80
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 100
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 120
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 140
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 160
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 180
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 200
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 220
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 240
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 260
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 280
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 300
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 320
-		sprite planet/Kreo-Ring
-	object Wanderer
-		distance 1628
-		offset 340
-		sprite planet/Kreo-Ring
-	object Wanderer-Gateway
-		sprite planet/Kreo-Warp
-	object Wanderer-Variants
-		distance 802
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 20
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 40
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 60
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 80
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 100
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 120
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 140
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 160
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 180
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 200
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 220
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 240
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 260
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 280
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 300
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 320
-		sprite planet/Kreo-Ring-Inner
-	object
-		distance 802
-		offset 340
-		sprite planet/Kreo-Ring-Inner
-	pos 97 -7918
-	trade "Heavy Metals" 1000
-	trade "Luxury Goods" 1000
-	trade Clothing 1000
-	trade Electronics 1000
-	trade Equipment 1000
-	trade Food 1000
-	trade Industrial 1000
-	trade Medical 1000
-	trade Metal 1000
-	trade Plastic 1000
-
-
-#Wormholes
-
-
-system Fornarep
-	add object Korath-Gateway
-		distance 3600
-		sprite planet/Kreo-Warp
-
-system Ka'ch'chrai
-	add object Wanderer-Gateway
-		distance 3600
-		sprite planet/Kreo-Warp
-
-system Perfica
-	add object Remnant-Gateway
-		distance 3600
-		sprite planet/Kreo-Warp
-
-system Quaru
-	add object Coalition-Gateway
-		distance 3600
-		sprite planet/Kreo-Warp
-
-system Rutilicus
-	add object Vanilla-Gateway
-		distance 3600
-		sprite planet/Kreo-Warp
-
-system Sol
-	add object Human-Gateway
-		distance 3600
-		sprite planet/Kreo-Warp
-
-system "Ya Hai"
-	add object Hai-Gateway
-		distance 3600
-		sprite planet/Kreo-Warp
-
-
-#Planets
 
 planet All-Content
 	attributes "deprecated control" kreo "variant control"
@@ -1844,6 +247,184 @@ planet Variants
 	shipyard Wanderer-Variants
 	spaceport ``
 
+
+
+system Coalition
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link Vanilla
+	object Coalition-Gateway
+		sprite planet/kreo-warp
+	object Coalition-Variants
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Coalition
+		distance 1628
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Coalition
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos -97 -7918
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
+
 planet Coalition
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description ""
@@ -1856,6 +437,190 @@ planet Coalition-Variants
 	description ""
 	shipyard Coalition-Variants
 	spaceport ""
+
+
+system Quaru
+	add object Coalition-Gateway
+		distance 3600
+		sprite planet/kreo-warp
+
+
+
+system Hai
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link Vanilla
+	object Hai-Gateway
+		sprite planet/kreo-warp
+	object Hai-Deprecated
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Hai-Variants
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object Hai
+		distance 1628
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Hai
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos -78 -7878
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
 
 planet Hai
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
@@ -1876,6 +641,190 @@ planet Hai-Variants
 	shipyard Hai-Variants
 	spaceport ""
 
+
+system "Ya Hai"
+	add object Hai-Gateway
+		distance 3600
+		sprite planet/kreo-warp
+
+
+
+system Human
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link Vanilla
+	object Human-Gateway
+		sprite planet/kreo-warp
+	object Human-Deprecated
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Human-Variants
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object Human
+		distance 1628
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Human
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos -43 -7850
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
+
 planet Human
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description ""
@@ -1894,6 +843,190 @@ planet Human-Variants
 	description ""
 	shipyard Human-Variants
 	spaceport ""
+
+
+system Sol
+	add object Human-Gateway
+		distance 3600
+		sprite planet/kreo-warp
+
+
+
+system Korath
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link Vanilla
+	object Korath-Gateway
+		sprite planet/kreo-warp
+	object Korath-Deprecated
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Korath-Variants
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object Korath
+		distance 1628
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Korath
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos 0 -7840
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
 
 planet Korath
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
@@ -1914,6 +1047,190 @@ planet Korath-Variants
 	shipyard Korath-Variants
 	spaceport ""
 
+
+system Fornarep
+	add object Korath-Gateway
+		distance 3600
+		sprite planet/kreo-warp
+
+
+
+system Other
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link Vanilla
+	object Other-Variants
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Other
+		distance 1628
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Other
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos 43 -7850
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
+
 planet Other
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description ""
@@ -1926,6 +1243,184 @@ planet Other-Variants
 	description ""
 	shipyard Other-Variants
 	spaceport ""
+
+
+
+system "Plugin"
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link "Ciu Kreo"
+	object "Plugin Deprecated"
+		distance 802
+		sprite planet/kreo-ring-inner
+	object "Plugin Developer"
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object "Plugin Variants"
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object "Plugin Kreo"
+		distance 1628
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object "Plugin Kreo"
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos 0 -8240
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
 
 planet "Plugin Deprecated"
 	attributes "deprecated control" "plugin kreo" kreo
@@ -1947,6 +1442,184 @@ planet "Plugin Variants"
 	description ""
 	spaceport ""
 
+
+
+system Remnant
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link Vanilla
+	object Remnant-Gateway
+		sprite planet/kreo-warp
+	object Remnant-Variants
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Remnant
+		distance 1628
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Remnant
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos 78 -7878
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
+
 planet Remnant
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description ""
@@ -1959,6 +1632,197 @@ planet Remnant-Variants
 	description ""
 	shipyard Remnant-Variants
 	spaceport ""
+
+
+system Perfica
+	add object Remnant-Gateway
+		distance 3600
+		sprite planet/kreo-warp
+
+
+
+system "Vanilla"
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link "Ciu Kreo"
+	link Coalition
+	link Hai
+	link Human
+	link Korath
+	link Other
+	link Remnant
+	link Wanderer
+	object Vanilla-Gateway
+		sprite planet/kreo-warp
+	object Vanilla-Deprecated
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Vanilla-Variants
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object Vanilla
+		distance 1628
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Vanilla
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos 0 -7940
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
 
 planet Vanilla
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
@@ -1999,6 +1863,190 @@ planet Vanilla-Variants
 	shipyard Wanderer-Variants
 	spaceport ""
 
+
+system Rutilicus
+	add object Vanilla-Gateway
+		distance 3600
+		sprite planet/kreo-warp
+
+
+
+system Wanderer
+	government "Ciu Kreo"
+	haze _menu/haze-kreo
+	link Vanilla
+	object Wanderer-Gateway
+		sprite planet/kreo-warp
+	object Wanderer-Variants
+		distance 802
+		sprite planet/kreo-ring-inner
+	object Wanderer
+		distance 1628
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 20
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 40
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 60
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 80
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 100
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 120
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 140
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 160
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 180
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 200
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 220
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 240
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 260
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 280
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 300
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 320
+		sprite planet/kreo-ring
+	object Wanderer
+		distance 1628
+		offset 340
+		sprite planet/kreo-ring
+	object
+		distance 802
+		offset 20
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 40
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 60
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 80
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 100
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 140
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 160
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 200
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 260
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 280
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 300
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 320
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
+		offset 340
+		sprite planet/kreo-ring-inner
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
+	pos 97 -7918
+	trade "Heavy Metals" 1000
+	trade "Luxury Goods" 1000
+	trade Clothing 1000
+	trade Electronics 1000
+	trade Equipment 1000
+	trade Food 1000
+	trade Industrial 1000
+	trade Medical 1000
+	trade Metal 1000
+	trade Plastic 1000
+
+
 planet Wanderer
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description ""
@@ -2011,4 +2059,10 @@ planet Wanderer-Variants
 	description ""
 	shipyard Wanderer-Variants
 	spaceport ""
+
+
+system Ka'ch'chrai
+	add object Wanderer-Gateway
+		distance 3600
+		sprite planet/kreo-warp
 
