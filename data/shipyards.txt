@@ -108,14 +108,12 @@ shipyard Human
 	"Marauder Bounder"
 	"Marauder Falcon"
 	"Marauder Firebird"
-	"Marauder Fury"
 	"Marauder Leviathan"
 	"Marauder Manta"
 	"Marauder Quicksilver"
 	"Marauder Raven"
 	"Marauder Splinter"
 	"Modified Argosy"
-	"Modified Osprey"
 	"Mule"
 	"Nest"
 	"Osprey"
@@ -274,8 +272,6 @@ shipyard Human-Variants
 	"Wasp (Meteor)"
 	"Wasp (Plasma)"
 	"Wasp (Proton)"
-	Kestrel Kestrel
-	Vanguard "Pointedstick"
 
 
 shipyard Korath
@@ -318,7 +314,6 @@ shipyard Korath-Variants
 
 shipyard Other
 	"Archon"
-	"Lampyrid-Class Transport"
 	"Nanobot"
 	"Pug Arfecta"
 	"Pug Enfolta"
@@ -330,7 +325,6 @@ shipyard Other
 
 shipyard Other-Variants
 	"Archon (Cloaked)"
-	"Quarg Wardragon" "Quarg Wardragon"
 	"Void Sprite (Infant)"
 
 
@@ -354,6 +348,15 @@ shipyard Remnant-Variants
 	"Starling (Hunter)"
 	"Starling (Sniper)"
 	"Starling (Thrasher)"
+
+
+shipyard `Vanilla Persons`
+	"Kestrel (Michael Zahniser)"
+	"Lampyrid-Class Transport"
+	"Marauder Fury"
+	"Modified Osprey"
+	"Quarg Wardragon (Cap'n Pester)"
+	"Vanguard (Pointedstick)"
 
 
 shipyard Wanderer

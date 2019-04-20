@@ -29,16 +29,24 @@ system "Ciu Kreo"
 	haze _menu/haze-kreo
 	link Plugin
 	link Vanilla
+	object `Battles`
+		distance 802
+		sprite planet/kreo-ring-inner
 	object `Deprecated Kreo`
 		distance 802
+		offset 60
 		sprite planet/kreo-ring-inner
 	object `Developer Kreo`
 		distance 802
-		offset 120
+		offset 140
+		sprite planet/kreo-ring-inner
+	object `Persons Kreo`
+		distance 802
+		offset 220
 		sprite planet/kreo-ring-inner
 	object `Variant Kreo`
 		distance 802
-		offset 240
+		offset 300
 		sprite planet/kreo-ring-inner
 	object `Ciu Kreo`
 		distance 1628
@@ -121,10 +129,6 @@ system "Ciu Kreo"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 60
-		sprite planet/kreo-ring-inner
-	object
-		distance 802
 		offset 80
 		sprite planet/kreo-ring-inner
 	object
@@ -133,7 +137,7 @@ system "Ciu Kreo"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 140
+		offset 120
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
@@ -149,7 +153,7 @@ system "Ciu Kreo"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 220
+		offset 240
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
@@ -158,10 +162,6 @@ system "Ciu Kreo"
 	object
 		distance 802
 		offset 280
-		sprite planet/kreo-ring-inner
-	object
-		distance 802
-		offset 300
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
@@ -201,6 +201,11 @@ system "Ciu Kreo"
 	trade Plastic 1000
 
 
+planet Battles
+	attributes "battles" kreo
+	description ``
+	spaceport ``
+
 planet `Ciu Kreo`
 	attributes "deprecated control" kreo "variant control"
 	description ``
@@ -233,6 +238,12 @@ planet `Developer Kreo`
 	description ``
 	outfitter Developer
 	shipyard Developer
+	spaceport ``
+
+planet `Persons Kreo`
+	attributes `persons control` kreo
+	description ``
+	shipyard `Vanilla Persons`
 	spaceport ``
 
 planet `Variant Kreo`
