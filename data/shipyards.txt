@@ -341,7 +341,6 @@ shipyard Remnant-Variants
 	"Albatross (Turret)"
 	"Gull (Bunks)"
 	"Gull (Cargo)"
-	"Gull (Heavy)"
 	"Gull (Sniper)"
 	"Gull (Support)"
 	"Starling (Heavy)"
