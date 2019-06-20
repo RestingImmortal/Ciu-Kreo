@@ -1,6 +1,6 @@
 #Ciu Kreo shipyards
 shipyard Developer
-	"Reaver Firebird"
+	"Reaver Firebird (Darcy)"
 
 
 #Vanilla shipyards

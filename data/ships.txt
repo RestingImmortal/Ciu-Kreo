@@ -1,6 +1,8 @@
 #Ciu Kreo ships
-ship "Reaver Firebird"
+ship "Reaver Firebird (Darcy)"
+	name `Reaver Firebird`
 	"never disabled"
+	description `One of Darcy's ships, as Ciu Kreo would'nt have been around unless he made Omnis. Check out his Adde Endless Sky repo on github!`
 	attributes
 		"cargo space" 27
 		"engine capacity" 183
