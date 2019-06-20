@@ -134,6 +134,7 @@ event `hide variants`
 #Visit all event
 event `visit all`
 	#Ciu Kreo visits
+	"visit planet" Battles
 	"visit planet" `Ciu Kreo`
 	"visit planet" Coalition
 	"visit planet" Coalition-Variants
@@ -150,6 +151,14 @@ event `visit all`
 	"visit planet" Korath-Variants
 	"visit planet" Other
 	"visit planet" Other-Variants
+	"visit planet" `Persons Kreo`
+	"visit planet" `Plugin Battles`
+	"visit planet" `Plugin Deprecated`
+	"visit planet" `Plugin Developer`
+	"visit planet" `Plugin Kreo`
+	"visit planet" `Plugin Persons`
+	"visit planet" `Plugin Persons`
+	"visit planet" `Plugin Variants`
 	"visit planet" Remnant
 	"visit planet" Remnant-Variants
 	"visit planet" Vanilla-Deprecated
@@ -164,6 +173,7 @@ event `visit all`
 	visit Human
 	visit Korath
 	visit Other
+	visit Plugin
 	visit Remnant
 	visit Vanilla
 	visit Wanderer
