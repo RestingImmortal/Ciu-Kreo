@@ -1261,16 +1261,24 @@ system "Plugin"
 	government "Ciu Kreo"
 	haze _menu/haze-kreo
 	link "Ciu Kreo"
-	object "Plugin Deprecated"
+	object `Plugin Battles`
 		distance 802
 		sprite planet/kreo-ring-inner
-	object "Plugin Developer"
+	object `Plugin Deprecated`
 		distance 802
-		offset 120
+		offset 60
 		sprite planet/kreo-ring-inner
-	object "Plugin Variants"
+	object `Plugin Developer`
 		distance 802
-		offset 240
+		offset 140
+		sprite planet/kreo-ring-inner
+	object `Plugin Persons`
+		distance 802
+		offset 220
+		sprite planet/kreo-ring-inner
+	object `Plugin Variants`
+		distance 802
+		offset 300
 		sprite planet/kreo-ring-inner
 	object "Plugin Kreo"
 		distance 1628
@@ -1353,10 +1361,6 @@ system "Plugin"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 60
-		sprite planet/kreo-ring-inner
-	object
-		distance 802
 		offset 80
 		sprite planet/kreo-ring-inner
 	object
@@ -1365,7 +1369,7 @@ system "Plugin"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 140
+		offset 120
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
@@ -1381,7 +1385,7 @@ system "Plugin"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 220
+		offset 240
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
@@ -1393,16 +1397,29 @@ system "Plugin"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 300
-		sprite planet/kreo-ring-inner
-	object
-		distance 802
 		offset 320
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 340
 		sprite planet/kreo-ring-inner
+	object
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 90
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 180
+	object
+		distance 3252
+		sprite star/kreo-star
+		offset 270
 	object
 		sprite star/kreo-star
 	object
@@ -1432,6 +1449,8 @@ system "Plugin"
 	trade Metal 1000
 	trade Plastic 1000
 
+planet "Plugin Battles"
+	attributes "plugin battles" "plugin kreo" kreo
 
 planet "Plugin Deprecated"
 	attributes "deprecated control" "plugin kreo" kreo
@@ -1446,6 +1465,12 @@ planet "Plugin Developer"
 planet "Plugin Kreo"
 	attributes "deprecated control" "developer control" "plugin kreo" "variant control" kreo
 	description ""
+	spaceport ""
+
+planet "Plugin Persons"
+	attributes "persons control" "plugin kreo" kreo
+	description ""
+	shipyard "Vanilla Persons"
 	spaceport ""
 
 planet "Plugin Variants"
