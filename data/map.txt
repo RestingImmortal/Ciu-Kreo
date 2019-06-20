@@ -1451,6 +1451,8 @@ system "Plugin"
 
 planet "Plugin Battles"
 	attributes "plugin battles" "plugin kreo" kreo
+	description ""
+	spaceport ""
 
 planet "Plugin Deprecated"
 	attributes "deprecated control" "plugin kreo" kreo
