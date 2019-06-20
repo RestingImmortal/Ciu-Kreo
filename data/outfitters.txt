@@ -307,7 +307,7 @@ outfitter Remnant
 	"Quantum Key Stone"
 	"Remnant Capital License"
 	"Remnant License"
-	"Savage Scanner"
+	"Salvage Scanner"
 	"Smelter-Class Steering"
 	"Smelter-Class Thruster"
 	"Thermoelectric Cooler"
