@@ -1472,7 +1472,6 @@ planet "Plugin Kreo"
 planet "Plugin Persons"
 	attributes "persons control" "plugin kreo" kreo
 	description ""
-	shipyard "Vanilla Persons"
 	spaceport ""
 
 planet "Plugin Variants"
