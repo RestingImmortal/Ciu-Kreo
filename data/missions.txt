@@ -284,6 +284,60 @@ mission `'1Deprecated: Hide`
 	to offer
 		has `deprecated shown`
 
+#Developer toggle missions
+mission `'1Developer: Show`
+	description `Show developer outfits on all-content rings. Note that this takes a day to take effect.`
+	job
+	name `Developer: Show`
+	on accept
+		event `show developer`
+		set `developer shown`
+	repeat
+	source
+		attributes `developer control`
+	to offer
+		not `developer shown`
+
+mission `'1Developer: Hide`
+	description `Hide deprecated outfits on all-content rings. Note that this takes a day to take effect.`
+	job
+	name `Developer: Hide`
+	on accept
+		event `hide developer`
+		clear `developer shown`
+	repeat
+	source
+		attributes `developercontrol`
+	to offer
+		has `developer shown`
+
+#Persons toggle missions
+mission `'1Persons: Show`
+	description `Show person ships on all-content rings. Note that this takes a day to take effect.`
+	job
+	name `Persons: Show`
+	on accept
+		event `show persons`
+		set `persons shown`
+	repeat
+	source
+		attributes `persons control`
+	to offer
+		not `persons shown`
+
+mission `'1Persons: Hide`
+	description `Hide person ships on all-content rings. Note that this takes a day to take effect.`
+	job
+	name `Persons: Hide`
+	on accept
+		event `hide persons`
+		clear `persons shown`
+	repeat
+	source
+		attributes `persons control`
+	to offer
+		has `persons shown`
+
 #Variant toggle missions
 mission `'1Variants: Show`
 	description `Show variants of ships on all-content rings. Note that this takes a day to take effect.`

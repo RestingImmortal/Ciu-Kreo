@@ -63,6 +63,30 @@ event `hide deprecated`
 		remove outfitter Human-Deprecated
 		remove outfitter Korath-Deprecated
 
+#Developer toggle events
+event `show developer`
+	planet `Ciu Kreo`
+		add outfitter Developer
+		add shipyard Developer
+
+event `hide developer`
+	planet `Ciu Kreo`
+		remove outfitter Developer
+		remove shipyard Developer
+
+#Persons toggle events
+event `show persons`
+	planet `Ciu Kreo`
+		add shipyard "Vanilla Persons"
+	planet `Vanilla Kreo`
+		add shipyard "Vanilla Persons"
+
+event `hide persons`
+	planet `Ciu Kreo`
+		remove shipyard "Vanilla Persons"
+	planet `Vanilla Kreo`
+		remove shipyard "Vanilla Persons"
+
 #Variant toggle events
 event `show variants`
 	planet `Ciu Kreo`
