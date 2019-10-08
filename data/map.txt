@@ -207,7 +207,7 @@ planet Battles
 	spaceport ``
 
 planet `Ciu Kreo`
-	attributes "deprecated control" kreo "variant control"
+	attributes "deprecated control" "developer control" "persons control" kreo "variant control"
 	description ``
 	outfitter Coalition
 	outfitter Hai
@@ -234,14 +234,14 @@ planet `Deprecated Kreo`
 	spaceport ``
 
 planet `Developer Kreo`
-	attributes kreo
+	attributes "developer control" kreo
 	description ``
 	outfitter Developer
 	shipyard Developer
 	spaceport ``
 
 planet `Persons Kreo`
-	attributes `persons control` kreo
+	attributes "persons control" kreo
 	description ``
 	shipyard `Vanilla Persons`
 	spaceport ``
@@ -1694,13 +1694,17 @@ system "Vanilla"
 	object Vanilla-Deprecated
 		distance 802
 		sprite planet/kreo-ring-inner
+	object Vanilla-Persons
+		distance 802
+		offset 120
+		sprite planet/kreo-ring-inner
+	object Vanilla-Variants
+		distance 802
+		offset 240
+		sprite planet/kreo-ring-inner
 	object `Vanilla Kreo`
 		distance 1628
 		sprite planet/kreo-ring
-	object Vanilla-Variants
-		distance 802
-		offset 180
-		sprite planet/kreo-ring-inner
 	object `Vanilla Kreo`
 		distance 1628
 		offset 20
@@ -1791,10 +1795,6 @@ system "Vanilla"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
-		offset 120
-		sprite planet/kreo-ring-inner
-	object
-		distance 802
 		offset 140
 		sprite planet/kreo-ring-inner
 	object
@@ -1803,15 +1803,15 @@ system "Vanilla"
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
+		offset 180
+		sprite planet/kreo-ring-inner
+	object
+		distance 802
 		offset 200
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
 		offset 220
-		sprite planet/kreo-ring-inner
-	object
-		distance 802
-		offset 240
 		sprite planet/kreo-ring-inner
 	object
 		distance 802
@@ -1870,7 +1870,7 @@ planet Vanilla-Deprecated
 	spaceport ""
 
 planet `Vanilla Kreo`
-	attributes "deprecated control" "vanilla kreo" kreo "variant control"
+	attributes "deprecated control" "persons control" "vanilla kreo" kreo "variant control"
 	description ""
 	outfitter Coalition
 	outfitter Hai
@@ -1886,6 +1886,12 @@ planet `Vanilla Kreo`
 	shipyard Other
 	shipyard Remnant
 	shipyard Wanderer
+	spaceport ""
+
+planet Vanilla-Persons
+	attributes "vanilla kreo" kreo "persons control"
+	description ""
+	shipyard `Vanilla Persons`
 	spaceport ""
 
 planet Vanilla-Variants
