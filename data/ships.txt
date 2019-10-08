@@ -1,8 +1,8 @@
 #Ciu Kreo ships
 ship "Reaver Firebird (Darcy)"
-	name `Reaver Firebird`
+	name "Reaver Firebird"
+	sprite ship/reaver-firebird
 	"never disabled"
-	description `One of Darcy's ships, as Ciu Kreo would'nt have been around unless he made Omnis. Check out his Adde Endless Sky repo on github!`
 	attributes
 		"cargo space" 27
 		"engine capacity" 183
@@ -24,12 +24,6 @@ ship "Reaver Firebird (Darcy)"
 		mass 710
 		ramscoop 6
 		shields 6600
-	gun -28 -27 "Ion Cannon"
-	gun -39 -13 Sunbeam
-	gun 28 -27 "Ion Cannon"
-	gun 39 -13 Sunbeam
-	turret -5 3 "Heliarch Attractor"
-	turret 5 3 "Heliarch Attractor"
 	outfits
 		"Blue Sun Reactor"
 		"Heliarch Attractor" 2
@@ -48,12 +42,19 @@ ship "Reaver Firebird (Darcy)"
 		"Thruster (Asteroid Class)"
 		"Thruster (Lunar Class)" 2
 		Sunbeam 2
-	"final explode" "final explosion large" 1
+
+	gun -28 -27 "Ion Cannon"
+	gun -39 -13 Sunbeam
+	gun 28 -27 "Ion Cannon"
+	gun 39 -13 Sunbeam
+	turret -5 3 "Heliarch Attractor"
+	turret 5 3 "Heliarch Attractor"
 	explode "small explosion" 73
 	explode "medium explosion" 49
 	explode "large explosion" 17
 	explode "huge explosion" 11
-	sprite ship/reaver-firebird
+	"final explode" "final explosion large" 1
+	description "One of Darcy's ships, as Ciu Kreo wouldn't have been around unless he made Omnis. Check out his Adde Endless Sky repo on github!"
 
 
 
