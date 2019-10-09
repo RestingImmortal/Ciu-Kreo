@@ -1239,10 +1239,10 @@ system Other
 
 planet Other
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
-	description "(l) All ships and outfits from smaller factions are found here."
+	description "(l) All ships and outfits from smaller factions can be found here."
 	outfitter Other
 	shipyard Other
-	spaceport "(p) All ships and outfits from smaller factions are found here."
+	spaceport "(p) All ships and outfits from smaller factions can be found here."
 
 planet Other-Variants
 	attributes "vanilla kreo" kreo "variant control"
