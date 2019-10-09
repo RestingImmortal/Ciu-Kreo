@@ -349,7 +349,7 @@ shipyard Remnant-Variants
 	"Starling (Thrasher)"
 
 
-shipyard `Vanilla Persons`
+shipyard Vanilla-Persons
 	"Kestrel (Michael Zahniser)"
 	"Lampyrid-Class Transport"
 	"Marauder Fury"

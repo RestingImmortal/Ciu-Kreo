@@ -1,29 +1,29 @@
 #Swizzle events
-event `swizzle 0`
+event "swizzle 0"
 	government Escort
 		swizzle 0
 
-event `swizzle 1`
+event "swizzle 1"
 	government Escort
 		swizzle 1
 
-event `swizzle 2`
+event "swizzle 2"
 	government Escort
 		swizzle 2
 
-event `swizzle 3`
+event "swizzle 3"
 	government Escort
 		swizzle 3
 
-event `swizzle 4`
+event "swizzle 4"
 	government Escort
 		swizzle 4
 
-event `swizzle 5`
+event "swizzle 5"
 	government Escort
 		swizzle 5
 
-event `swizzle 6`
+event "swizzle 6"
 	government Escort
 		swizzle 6
 
@@ -31,8 +31,8 @@ event `swizzle 6`
 #Toggle events
 
 #Deprecation toggle events
-event `show deprecated`
-	planet `Ciu Kreo`
+event "show deprecated"
+	planet "Ciu Kreo"
 		add outfitter Hai-Deprecated
 		add outfitter Human-Deprecated
 		add outfitter Korath-Deprecated
@@ -47,8 +47,8 @@ event `show deprecated`
 		add outfitter Human-Deprecated
 		add outfitter Korath-Deprecated
 
-event `hide deprecated`
-	planet `Ciu Kreo`
+event "hide deprecated"
+	planet "Ciu Kreo"
 		remove outfitter Hai-Deprecated
 		remove outfitter Human-Deprecated
 		remove outfitter Korath-Deprecated
@@ -64,32 +64,32 @@ event `hide deprecated`
 		remove outfitter Korath-Deprecated
 
 #Developer toggle events
-event `show developer`
-	planet `Ciu Kreo`
+event "show developer"
+	planet "Ciu Kreo"
 		add outfitter Developer
 		add shipyard Developer
 
-event `hide developer`
-	planet `Ciu Kreo`
+event "hide developer"
+	planet "Ciu Kreo"
 		remove outfitter Developer
 		remove shipyard Developer
 
 #Persons toggle events
-event `show persons`
-	planet `Ciu Kreo`
-		add shipyard "Vanilla Persons"
-	planet `Vanilla Kreo`
-		add shipyard "Vanilla Persons"
+event "show persons"
+	planet "Ciu Kreo"
+		add shipyard Vanilla-Persons
+	planet "Vanilla Kreo"
+		add shipyard Vanilla-Persons
 
-event `hide persons`
-	planet `Ciu Kreo`
-		remove shipyard "Vanilla Persons"
-	planet `Vanilla Kreo`
-		remove shipyard "Vanilla Persons"
+event "hide persons"
+	planet "Ciu Kreo"
+		remove shipyard Vanilla-Persons
+	planet "Vanilla Kreo"
+		remove shipyard Vanilla-Persons
 
 #Variant toggle events
-event `show variants`
-	planet `Ciu Kreo`
+event "show variants"
+	planet "Ciu Kreo"
 		add shipyard Coalition-Variants
 		add shipyard Hai-Variants
 		add shipyard Human-Variants
@@ -120,8 +120,8 @@ event `show variants`
 	planet Wanderer
 		add shipyard Wanderer-Variants
 
-event `hide variants`
-	planet `Ciu Kreo`
+event "hide variants"
+	planet "Ciu Kreo"
 		remove shipyard Coalition-Variants
 		remove shipyard Hai-Variants
 		remove shipyard Human-Variants
@@ -156,14 +156,14 @@ event `hide variants`
 #Visit events
 
 #Visit all event
-event `visit all`
+event "visit all"
 	#Ciu Kreo visits
 	"visit planet" Battles
-	"visit planet" `Ciu Kreo`
+	"visit planet" "Ciu Kreo"
 	"visit planet" Coalition
 	"visit planet" Coalition-Variants
-	"visit planet" `Deprecated Kreo`
-	"visit planet" `Developer Kreo`
+	"visit planet" "Deprecated Kreo"
+	"visit planet" "Developer Kreo"
 	"visit planet" Hai
 	"visit planet" Hai-Deprecated
 	"visit planet" Hai-Variants
@@ -175,20 +175,20 @@ event `visit all`
 	"visit planet" Korath-Variants
 	"visit planet" Other
 	"visit planet" Other-Variants
-	"visit planet" `Persons Kreo`
-	"visit planet" `Plugin Battles`
-	"visit planet" `Plugin Deprecated`
-	"visit planet" `Plugin Developer`
-	"visit planet" `Plugin Kreo`
-	"visit planet" `Plugin Persons`
-	"visit planet" `Plugin Persons`
-	"visit planet" `Plugin Variants`
+	"visit planet" "Persons Kreo"
+	"visit planet" "Plugin Battles"
+	"visit planet" "Plugin Deprecated"
+	"visit planet" "Plugin Developer"
+	"visit planet" "Plugin Kreo"
+	"visit planet" "Plugin Persons"
+	"visit planet" "Plugin Persons"
+	"visit planet" "Plugin Variants"
 	"visit planet" Remnant
 	"visit planet" Remnant-Variants
 	"visit planet" Vanilla-Deprecated
-	"visit planet" `Vanilla Kreo`
+	"visit planet" "Vanilla Kreo"
 	"visit planet" Vanilla-Variants
-	"visit planet" `Variant Kreo`
+	"visit planet" "Variant Kreo"
 	"visit planet" Wanderer
 	"visit planet" Wanderer-Variants
 	visit "Ciu Kreo"
@@ -907,7 +907,7 @@ event `visit all`
 	visit Zubeneschamali
 
 #Vanilla visit event
-event `visit vanilla`
+event "visit vanilla"
 	#Vanilla Ciu Kreo visits
 	"visit planet" Coalition
 	"visit planet" Coalition-Variants
@@ -925,7 +925,7 @@ event `visit vanilla`
 	"visit planet" Remnant
 	"visit planet" Remnant-Variants
 	"visit planet" Vanilla-Deprecated
-	"visit planet" `Vanilla Kreo`
+	"visit planet" "Vanilla Kreo"
 	"visit planet" Vanilla-Variants
 	"visit planet" Wanderer
 	"visit planet" Wanderer-Variants
