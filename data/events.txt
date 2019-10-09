@@ -155,10 +155,53 @@ event "hide variants"
 
 #Visit events
 
+#Unvisit Ciu Kreo event
+event "hide ciu kreo"
+	"unvisit planet" "Ciu Kreo"
+	"unvisit planet" Coalition
+	"unvisit planet" Coalition-Variants
+	"unvisit planet" "Deprecated Kreo"
+	"unvisit planet" "Developer Kreo"
+	"unvisit planet" Hai
+	"unvisit planet" Hai-Deprecated
+	"unvisit planet" Hai-Variants
+	"unvisit planet" Human
+	"unvisit planet" Human-Deprecated
+	"unvisit planet" Human-Variants
+	"unvisit planet" Korath
+	"unvisit planet" Korath-Deprecated
+	"unvisit planet" Korath-Variants
+	"unvisit planet" Other
+	"unvisit planet" Other-Variants
+	"unvisit planet" "Persons Kreo"
+	"unvisit planet" "Plugin Deprecated"
+	"unvisit planet" "Plugin Developer"
+	"unvisit planet" "Plugin Kreo"
+	"unvisit planet" "Plugin Persons"
+	"unvisit planet" "Plugin Persons"
+	"unvisit planet" "Plugin Variants"
+	"unvisit planet" Remnant
+	"unvisit planet" Remnant-Variants
+	"unvisit planet" Vanilla-Deprecated
+	"unvisit planet" "Vanilla Kreo"
+	"unvisit planet" Vanilla-Variants
+	"unvisit planet" "Variant Kreo"
+	"unvisit planet" Wanderer
+	"unvisit planet" Wanderer-Variants
+	unvisit "Ciu Kreo"
+	unvisit Coalition
+	unvisit Hai
+	unvisit Human
+	unvisit Korath
+	unvisit Other
+	unvisit Plugin
+	unvisit Remnant
+	unvisit Vanilla
+	unvisit Wanderer
+
 #Visit all event
 event "visit all"
 	#Ciu Kreo visits
-	"visit planet" Battles
 	"visit planet" "Ciu Kreo"
 	"visit planet" Coalition
 	"visit planet" Coalition-Variants
@@ -176,7 +219,6 @@ event "visit all"
 	"visit planet" Other
 	"visit planet" Other-Variants
 	"visit planet" "Persons Kreo"
-	"visit planet" "Plugin Battles"
 	"visit planet" "Plugin Deprecated"
 	"visit planet" "Plugin Developer"
 	"visit planet" "Plugin Kreo"

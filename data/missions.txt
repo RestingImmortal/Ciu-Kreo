@@ -367,6 +367,16 @@ mission "'1Variants: Hide"
 
 
 #Visit Missions
+mission "'zHide Ciu Kreo on Exit"
+	description "Unvisits all Ciu Kreo planets and systems upon leaving. Useful if you don't want a crowded outfitter/shipyard map. Note that this will only take proper effect if you immediately exit Ciu Kreo systems."
+	job
+	name "Hide Ciu Kreo on Exit"
+	on accept
+		event "hide ciu kreo"
+	repeat
+	source
+		attributes kreo
+
 mission "'Visit All"
 	description "All systems and planets supported by Ciu Kreo will be marked as visited by the player."
 	job
