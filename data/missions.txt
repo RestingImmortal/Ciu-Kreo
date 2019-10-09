@@ -307,7 +307,7 @@ mission "'1Developer: Hide"
 		clear "developer shown"
 	repeat
 	source
-		attributes "developercontrol"
+		attributes "developer control"
 	to offer
 		has "developer shown"
 
