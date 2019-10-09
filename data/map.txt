@@ -243,7 +243,7 @@ planet "Developer Kreo"
 planet "Persons Kreo"
 	attributes "persons control" kreo
 	description ""
-	shipyard "Vanilla Persons"
+	shipyard Vanilla-Persons
 	spaceport ""
 
 planet "Variant Kreo"
