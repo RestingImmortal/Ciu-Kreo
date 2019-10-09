@@ -384,6 +384,7 @@ mission "'Visit All"
 	on accept
 		event "visit all"
 		set "all visited"
+	repeat
 	source
 		attributes kreo
 	to fail
@@ -394,6 +395,7 @@ mission "Visit Vanilla"
 	job
 	on accept
 		event "visit vanilla"
+	repeat
 	source
 		attributes "vanilla kreo"
 	to fail
