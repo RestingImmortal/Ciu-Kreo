@@ -4,7 +4,7 @@ outfitter Developer
 
 
 #Vanilla outfitters
-outfitter Coalition
+outfitter Coalition-Kreo
 	"Active Finisher"
 	"Bombardment Cannon"
 	"Bombardment Turret"
@@ -31,7 +31,7 @@ outfitter Coalition
 	"Small Steering Module"
 	"Small Thrust Module"
 
-outfitter Hai
+outfitter Hai-Kreo
 	"Boulder Reactor"
 	"Bullfrog Anti-Missile"
 	"Chameleon Anti-Missile"
@@ -69,7 +69,7 @@ outfitter Hai
 	`"Bufaer" Atomic Steering`
 	`"Bufaer" Atomic Thruster`
 
-outfitter Human
+outfitter Human-Kreo
 	"A120 Atomic Thruster"
 	"A125 Atomic Steering"
 	"A250 Atomic Thruster"
@@ -215,7 +215,7 @@ outfitter Human
 	"X5200 Ion Steering"
 	"X5700 Ion Thruster"
 
-outfitter Korath
+outfitter Korath-Kreo
 	"Command Center"
 	"Control Transceiver"
 	"Double Plasma Core"
@@ -260,7 +260,7 @@ outfitter Korath
 	"Thruster (Stellar Class)"
 	"Triple Plasma Core"
 
-outfitter Other
+outfitter Other-Kreo
 	"Antimatter Core"
 	"Drak Anti-Missile Field"
 	"Drak Antimatter Cannon"
@@ -290,7 +290,7 @@ outfitter Other
 	"Tier 3 Anti-Missile"
 	Mouthparts?
 
-outfitter Remnant
+outfitter Remnant-Kreo
 	"Aeon Cell"
 	"Crucible-Class Steering"
 	"Crucible-Class Thruster"
@@ -315,7 +315,7 @@ outfitter Remnant
 	"Thrasher Turret"
 	"Tuning Rifle"
 
-outfitter Wanderer
+outfitter Wanderer-Kreo
 	"Blue Sun Reactor"
 	"Bright Cloud Shielding"
 	"Dark Storm Shielding"

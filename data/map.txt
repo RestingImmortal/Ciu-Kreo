@@ -204,20 +204,20 @@ system "Ciu Kreo"
 planet "Ciu Kreo"
 	attributes "deprecated control" "developer control" "persons control" kreo "variant control"
 	description "(l) Ring at the center of all systems in this cluster. It holds everything in the universe in it, and has everything imaginable to suit your needs,"
-	outfitter Coalition
-	outfitter Hai
-	outfitter Human
-	outfitter Korath
-	outfitter Other
-	outfitter Remnant
-	outfitter Wanderer
-	shipyard Coalition
-	shipyard Hai
-	shipyard Human
-	shipyard Korath
-	shipyard Other
-	shipyard Remnant
-	shipyard Wanderer
+	outfitter Coalition-Kreo
+	outfitter Hai-Kreo
+	outfitter Human-Kreo
+	outfitter Korath-Kreo
+	outfitter Other-Kreo
+	outfitter Remnant-Kreo
+	outfitter Wanderer-Kreo
+	shipyard Coalition-Kreo
+	shipyard Hai-Kreo
+	shipyard Human-Kreo
+	shipyard Korath-Kreo
+	shipyard Other-Kreo
+	shipyard Remnant-Kreo
+	shipyard Wanderer-Kreo
 	spaceport "(p) Ring at the center of all systems in this cluster. It holds everything in the universe in it, and has everything imaginable to suit your needs,"
 
 planet "Deprecated Kreo"
@@ -243,7 +243,7 @@ planet "Persons Kreo"
 
 planet "Variant Kreo"
 	attributes kreo "variant control"
-	description "(l) All the variations of every ship in the universe can be found here."
+	description "(l) All the variants of every ship in the universe can be found here."
 	shipyard Coalition-Variants
 	shipyard Hai-Variants
 	shipyard Human-Variants
@@ -251,7 +251,7 @@ planet "Variant Kreo"
 	shipyard Other-Variants
 	shipyard Remnant-Variants
 	shipyard Wanderer-Variants
-	spaceport "(p) All the variations of every ship in the universe can be found here."
+	spaceport "(p) All the variants of every ship in the universe can be found here."
 
 
 
@@ -434,15 +434,15 @@ system Coalition
 planet Coalition
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description "(l) All Coalition ships and outfits can be found here."
-	outfitter Coalition
-	shipyard Coalition
+	outfitter Coalition-Kreo
+	shipyard Coalition-Kreo
 	spaceport "(p) All Coalition ships and outfits can be found here."
 
 planet Coalition-Variants
 	attributes "vanilla kreo" kreo "variant control"
-	description "(l) All variations of Coalition ships can be found here."
+	description "(l) All variants of Coalition ships can be found here."
 	shipyard Coalition-Variants
-	spaceport "(p) All variations of Coalition ships can be found here."
+	spaceport "(p) All variants of Coalition ships can be found here."
 
 
 system Quaru
@@ -631,8 +631,8 @@ system Hai
 planet Hai
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description "(l) All Hai ships and outfits can be found here."
-	outfitter Hai
-	shipyard Hai
+	outfitter Hai-Kreo
+	shipyard Hai-Kreo
 	spaceport "(p) All Hai ships and outfits can be found here."
 
 planet Hai-Deprecated
@@ -834,8 +834,8 @@ system Human
 planet Human
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description "(l) All Human ships and outfits can be found here."
-	outfitter Human
-	shipyard Human
+	outfitter Human-Kreo
+	shipyard Human-Kreo
 	spaceport "(p) All Human ships and outfits can be found here."
 
 planet Human-Deprecated
@@ -846,9 +846,9 @@ planet Human-Deprecated
 
 planet Human-Variants
 	attributes "vanilla kreo" kreo "variant control"
-	description "(l) All variations of Human ships can be found here."
+	description "(l) All variants of Human ships can be found here."
 	shipyard Human-Variants
-	spaceport "(p) All variations of Human ships can be found here."
+	spaceport "(p) All variants of Human ships can be found here."
 
 
 system Sol
@@ -1037,8 +1037,8 @@ system Korath
 planet Korath
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description "(l) All Korath ships and outfits can be found here."
-	outfitter Korath
-	shipyard Korath
+	outfitter Korath-Kreo
+	shipyard Korath-Kreo
 	spaceport "(p) All Korath ships and outfits can be found here."
 
 planet Korath-Deprecated
@@ -1049,9 +1049,9 @@ planet Korath-Deprecated
 
 planet Korath-Variants
 	attributes "vanilla kreo" kreo "variant control"
-	description "(l) All variations of Korath ships can be found here."
+	description "(l) All variants of Korath ships can be found here."
 	shipyard Korath-Variants
-	spaceport "(p) All variations of Korath ships can be found here."
+	spaceport "(p) All variants of Korath ships can be found here."
 
 
 system Fornarep
@@ -1239,16 +1239,16 @@ system Other
 
 planet Other
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
-	description "(l) All ships and outfits from smaller factions are found here."
-	outfitter Other
-	shipyard Other
-	spaceport "(p) All ships and outfits from smaller factions are found here."
+	description "(l) All ships and outfits from smaller factions can be found here."
+	outfitter Other-Kreo
+	shipyard Other-Kreo
+	spaceport "(p) All ships and outfits from smaller factions can be found here."
 
 planet Other-Variants
 	attributes "vanilla kreo" kreo "variant control"
-	description "(l) All variations of ships from smaller factions can be found here."
+	description "(l) All variants of ships from smaller factions can be found here."
 	shipyard Other-Variants
-	spaceport "(p) All variations of ships from smaller factions can be found here."
+	spaceport "(p) All variants of ships from smaller factions can be found here."
 
 
 
@@ -1651,8 +1651,8 @@ system Remnant
 planet Remnant
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description "(l) All Remnant ships and outfits can be found here."
-	outfitter Remnant
-	shipyard Remnant
+	outfitter Remnant-Kreo
+	shipyard Remnant-Kreo
 	spaceport "(p) All Remnant ships and outfits can be found here."
 
 planet Remnant-Variants
@@ -1863,20 +1863,20 @@ planet Vanilla-Deprecated
 planet "Vanilla Kreo"
 	attributes "deprecated control" "persons control" "vanilla kreo" kreo "variant control"
 	description "(l) All Vanilla ships and outfits can be found here."
-	outfitter Coalition
-	outfitter Hai
-	outfitter Human
-	outfitter Korath
-	outfitter Other
-	outfitter Remnant
-	outfitter Wanderer
-	shipyard Coalition
-	shipyard Hai
-	shipyard Human
-	shipyard Korath
-	shipyard Other
-	shipyard Remnant
-	shipyard Wanderer
+	outfitter Coalition-Kreo
+	outfitter Hai-Kreo
+	outfitter Human-Kreo
+	outfitter Korath-Kreo
+	outfitter Other-Kreo
+	outfitter Remnant-Kreo
+	outfitter Wanderer-Kreo
+	shipyard Coalition-Kreo
+	shipyard Hai-Kreo
+	shipyard Human-Kreo
+	shipyard Korath-Kreo
+	shipyard Other-Kreo
+	shipyard Remnant-Kreo
+	shipyard Wanderer-Kreo
 	spaceport "(p) All Vanilla ships and outfits can be found here."
 
 planet Vanilla-Persons
@@ -2084,8 +2084,8 @@ system Wanderer
 planet Wanderer
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
 	description "(l) All Wanderer ships and outfits can be found here."
-	outfitter Wanderer
-	shipyard Wanderer
+	outfitter Wanderer-Kreo
+	shipyard Wanderer-Kreo
 	spaceport "(p) All Wanderer ships and outfits can be found here."
 
 planet Wanderer-Variants

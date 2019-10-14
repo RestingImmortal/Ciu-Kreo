@@ -4,7 +4,7 @@ shipyard Developer
 
 
 #Vanilla shipyards
-shipyard Coalition
+shipyard Coalition-Kreo
 	"Arach Courier"
 	"Arach Freighter"
 	"Arach Hulk"
@@ -32,7 +32,7 @@ shipyard Coalition-Variants
 	"Heliarch Punisher (Scrappy)"
 
 
-shipyard Hai
+shipyard Hai-Kreo
 	"Aphid"
 	"Centipede"
 	"Flea"
@@ -65,7 +65,7 @@ shipyard Hai-Variants
 	"Water Bug (Pulse)"
 
 
-shipyard Human
+shipyard Human-Kreo
 	"Aerie"
 	"Argosy"
 	"Arrow"
@@ -274,7 +274,7 @@ shipyard Human-Variants
 	"Wasp (Proton)"
 
 
-shipyard Korath
+shipyard Korath-Kreo
 	"Far Lek 14"
 	"Far Osk 27"
 	"Kar Ik Vot 349"
@@ -312,7 +312,7 @@ shipyard Korath-Variants
 	"Tek Far 78 - Osk (Close Quarters)"
 
 
-shipyard Other
+shipyard Other-Kreo
 	"Archon"
 	"Nanobot"
 	"Pug Arfecta"
@@ -328,7 +328,7 @@ shipyard Other-Variants
 	"Void Sprite (Infant)"
 
 
-shipyard Remnant
+shipyard Remnant-Kreo
 	"Albatross"
 	"Gascraft"
 	"Gull"
@@ -358,7 +358,7 @@ shipyard Vanilla-Persons
 	"Vanguard (Pointedstick)"
 
 
-shipyard Wanderer
+shipyard Wanderer-Kreo
 	"Autumn Leaf"
 	"Cool Breeze"
 	"Deep River Transport"
