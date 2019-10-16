@@ -353,6 +353,7 @@ outfitter Remnant-Kreo
 	"Remnant Capital License"
 	"Remnant License"
 	"Salvage Scanner"
+	"Scram Drive"
 	"Smelter-Class Steering"
 	"Smelter-Class Thruster"
 	"Thermoelectric Cooler"
