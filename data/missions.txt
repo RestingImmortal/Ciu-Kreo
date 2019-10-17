@@ -6,6 +6,7 @@ mission "'Licenses: Give All"
 	on accept
 		set "all licenses given"
 		clear "all licenses removed"
+		fail
 	repeat
 	source
 		attributes kreo
@@ -19,6 +20,7 @@ mission "'Licenses: Remove All"
 	on accept
 		set "all licenses removed"
 		clear "all licenses given"
+		fail
 	repeat
 	source
 		attributes kreo
@@ -96,6 +98,7 @@ mission "Licenses: Give Vanilla"
 		set "license: Wanderer Outfits"
 		set "license: Wanderer"
 		set "vanilla licenses given"
+		fail
 	repeat
 	source 
 		attributes "vanilla kreo"
@@ -123,6 +126,7 @@ mission "Licenses: Remove Vanilla"
 		clear "license: Wanderer"
 		clear "vanilla licenses given"
 		set "vanilla licenses removed"
+		fail
 	repeat
 	source 
 		attributes "vanilla kreo"
@@ -136,12 +140,11 @@ mission "'Money"
 	job
 	name "Give Credits"
 	on accept
-		payment 1000000000
+		payment 1500000000
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Money: Active"
 
 mission "'Money On Landing"
 	description "While you have this mission active, you will gain an additional billion credits each time you land."
@@ -176,11 +179,10 @@ mission "'Swizzle 0"
 	name "Swizzle 0"
 	on accept
 		event "swizzle 0"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Swizzle 0: Active"
 
 mission "'Swizzle 1"
 	description "Set your fleet's color to 1. This is the color used by Alpha ships."
@@ -188,11 +190,10 @@ mission "'Swizzle 1"
 	name "Swizzle 1"
 	on accept
 		event "swizzle 1"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Swizzle 1: Active"
 
 mission "'Swizzle 2"
 	description "Set your fleet's color to 2. This is the color used by Free Worlds ships."
@@ -200,11 +201,10 @@ mission "'Swizzle 2"
 	name "Swizzle 2"
 	on accept
 		event "swizzle 2"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Swizzle 2: Active"
 
 mission "'Swizzle 3"
 	description "Set your fleet's color to 3. This is the color used by Test Dummy ships."
@@ -212,11 +212,10 @@ mission "'Swizzle 3"
 	name "Swizzle 3"
 	on accept
 		event "swizzle 3"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Swizzle 3: Active"
 
 mission "'Swizzle 4"
 	description "Set your fleet's color to 4. This is the color used by Syndicate ships."
@@ -224,11 +223,10 @@ mission "'Swizzle 4"
 	name "Swizzle 4"
 	on accept
 		event "swizzle 4"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Swizzle 4: Active"
 
 mission "'Swizzle 5"
 	description "Set your fleet's color to 5. This is the color used by Merchant ships."
@@ -236,11 +234,10 @@ mission "'Swizzle 5"
 	name "Swizzle 5"
 	on accept
 		event "swizzle 5"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Swizzle 5: Active"
 
 mission "'Swizzle 6"
 	description "Set your fleet's color to 6. This is the color used by Pirate ships."
@@ -248,11 +245,10 @@ mission "'Swizzle 6"
 	name "Swizzle 6"
 	on accept
 		event "swizzle 6"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Swizzle 6: Active"
 
 
 #Toggle Missions
@@ -265,6 +261,7 @@ mission "'1Deprecated: Show"
 	on accept
 		event "show deprecated"
 		set "deprecated shown"
+		fail
 	repeat
 	source
 		attributes "deprecated control"
@@ -278,6 +275,7 @@ mission "'1Deprecated: Hide"
 	on accept
 		event "hide deprecated"
 		clear "deprecated shown"
+		fail
 	repeat
 	source
 		attributes "deprecated control"
@@ -292,6 +290,7 @@ mission "'1Developer: Show"
 	on accept
 		event "show developer"
 		set "developer shown"
+		fail
 	repeat
 	source
 		attributes "developer control"
@@ -305,6 +304,7 @@ mission "'1Developer: Hide"
 	on accept
 		event "hide developer"
 		clear "developer shown"
+		fail
 	repeat
 	source
 		attributes "developer control"
@@ -319,6 +319,7 @@ mission "'1Persons: Show"
 	on accept
 		event "show persons"
 		set "persons shown"
+		fail
 	repeat
 	source
 		attributes "persons control"
@@ -332,6 +333,7 @@ mission "'1Persons: Hide"
 	on accept
 		event "hide persons"
 		clear "persons shown"
+		fail
 	repeat
 	source
 		attributes "persons control"
@@ -346,6 +348,7 @@ mission "'1Variants: Show"
 	on accept
 		event "show variants"
 		set "variants shown"
+		fail
 	repeat
 	source
 		attributes "variant control"
@@ -359,6 +362,7 @@ mission "'1Variants: Hide"
 	on accept
 		event "hide variants"
 		clear "variants shown"
+		fail
 	repeat
 	source
 		attributes "variant control"
@@ -373,6 +377,7 @@ mission "'zHide Ciu Kreo on Exit"
 	name "Hide Ciu Kreo on Exit"
 	on accept
 		event "hide ciu kreo"
+		fail
 	repeat
 	source
 		attributes kreo
@@ -384,22 +389,20 @@ mission "'Visit All"
 	on accept
 		event "visit all"
 		set "all visited"
+		fail
 	repeat
 	source
 		attributes kreo
-	to fail
-		has "'Visit All: Active"
 
 mission "Visit Vanilla"
 	description "All vanilla systems and planets will be marked as visited by the player."
 	job
 	on accept
 		event "visit vanilla"
+		fail
 	repeat
 	source
 		attributes "vanilla kreo"
-	to fail
-		has "Visit Vanilla: Active"
 	to offer
 		not "all visited"
 
