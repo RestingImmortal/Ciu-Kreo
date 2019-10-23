@@ -26,6 +26,8 @@ outfitter Coalition-Kreo
 	"Large Steering Module"
 	"Large Thrust Module"
 	"Outfits Expansion"
+	"Overcharged Shield Module"
+	"Overclocked Repair Module"
 	"Scanning Module"
 	"Small Battery Module"
 	"Small Collector Module"
@@ -336,6 +338,7 @@ outfitter Other-Kreo
 
 outfitter Remnant-Kreo
 	"Aeon Cell"
+	"Anvil-Class Engine"
 	"Bunk Room"
 	"Cargo Expansion"
 	"Crucible-Class Steering"
