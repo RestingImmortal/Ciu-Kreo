@@ -367,6 +367,7 @@ shipyard Wanderer-Kreo
 	"Earth Shaper"
 	"Flycatcher"
 	"Hurricane"
+	"Riptide"
 	"Strong Wind"
 	"Summer Leaf"
 	"Tempest"
