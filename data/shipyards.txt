@@ -333,6 +333,7 @@ shipyard Remnant-Kreo
 	"Gascraft"
 	"Gull"
 	"Pelican"
+	"Penguin"
 	"Starling"
 
 shipyard Remnant-Variants

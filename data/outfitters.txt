@@ -366,6 +366,7 @@ outfitter Remnant-Kreo
 	"Thrasher Cannon"
 	"Thrasher Turret"
 	"Tuning Rifle"
+	"Void Rifle"
 
 outfitter Wanderer-Kreo
 	"Blue Sun Reactor"
