@@ -332,9 +332,12 @@ shipyard Remnant-Kreo
 	"Albatross"
 	"Gascraft"
 	"Gull"
+	"Ibis"
 	"Pelican"
 	"Penguin"
+	"Petrel"
 	"Starling"
+	"Tern"
 
 shipyard Remnant-Variants
 	"Albatross (Heavy)"
