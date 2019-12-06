@@ -359,6 +359,7 @@ shipyard Vanilla-Persons
 	"Marauder Fury"
 	"Modified Osprey"
 	"Quarg Wardragon (Cap'n Pester)"
+	"Ursa Polaris"
 	"Vanguard (Pointedstick)"
 
 
