@@ -245,6 +245,7 @@ event "visit all"
 	visit Wanderer
 	#Vanilla visits
 	"visit planet" "Ablub's Invention"
+	"visit planet" Alix
 	"visit planet" "Alta Hai"
 	"visit planet" "Arachne Station"
 	"visit planet" "Aresepru Nat"
@@ -260,6 +261,8 @@ event "visit all"
 	"visit planet" "Buccaneer Bay"
 	"visit planet" "Carbuncle Station"
 	"visit planet" "Ceaseless Toil"
+	"visit planet" Celeatis
+	"visit planet" "Ceilia'sei"
 	"visit planet" "Celestial Third"
 	"visit planet" "Charon Station"
 	"visit planet" "Charybdis Station"
@@ -278,7 +281,9 @@ event "visit all"
 	"visit planet" "Drekag Firask"
 	"visit planet" "Dusk Companion"
 	"visit planet" "Dwelling of Speloog"
+	"visit planet" Eavine
 	"visit planet" "Elek Kartanu"
+	"visit planet" "Ember Graveyard"
 	"visit planet" "Ember Reaches"
 	"visit planet" "Ember Threshold"
 	"visit planet" "Ember Wormhole"
@@ -299,12 +304,15 @@ event "visit all"
 	"visit planet" "Fourth Shadow"
 	"visit planet" "Gentle Rain"
 	"visit planet" "Glittering Ice"
+	"visit planet" "Graveyard Wormhole (Stable)"
+	"visit planet" "Graveyard Wormhole (Unstable)"
 	"visit planet" "Gresku Fodar"
 	"visit planet" "Hammer of Debrugt"
 	"visit planet" "Huginn Station"
 	"visit planet" "Hydra Station"
 	"visit planet" "Inmost Blue"
 	"visit planet" "Into White"
+	"visit planet" Kaeyin
 	"visit planet" "Karek Fornati"
 	"visit planet" "Kasichara Fet"
 	"visit planet" "Keneska Fek"
@@ -344,12 +352,17 @@ event "visit all"
 	"visit planet" "New Wales"
 	"visit planet" "New Washington"
 	"visit planet" "Oberon Station"
+	"visit planet" Osaeli
+	"visit planet" Palarei
+	"visit planet" "Parii'het"
 	"visit planet" "Phoenix Station"
 	"visit planet" "Plort's Water"
+	"visit planet" "Querii'ka"
 	"visit planet" "Refuge of Belugt"
 	"visit planet" "Rekat Moraski"
 	"visit planet" "Remnant Wormhole"
 	"visit planet" "Remote Blue"
+	"visit planet" Retilie
 	"visit planet" "Ring of Friendship"
 	"visit planet" "Ring of Power"
 	"visit planet" "Ring of Wisdom"
@@ -368,6 +381,7 @@ event "visit all"
 	"visit planet" "Sek Alarfarat"
 	"visit planet" "Selefkar Refinery"
 	"visit planet" "Seleptra Nak"
+	"visit planet" "Seli'het"
 	"visit planet" "Separa Tiklar"
 	"visit planet" "Septar Lorku"
 	"visit planet" "Sessiliki Far"
@@ -376,6 +390,7 @@ event "visit all"
 	"visit planet" "Shadow of Leaves"
 	"visit planet" "Shadowed Valley"
 	"visit planet" "Shifting Sand"
+	"visit planet" Siteria
 	"visit planet" "Smuggler's Den"
 	"visit planet" "Solima Skarati"
 	"visit planet" "Sopi Lefarkata"
@@ -403,6 +418,7 @@ event "visit all"
 	"visit planet" "Varu Mer'ek"
 	"visit planet" "Varu Tek'kai"
 	"visit planet" "Varu Tev'kei"
+	"visit planet" Veliante
 	"visit planet" "Vibrant Water"
 	"visit planet" "Warm Slope"
 	"visit planet" "Warm Wind"
@@ -592,6 +608,7 @@ event "visit all"
 	visit "7 Autumn Rising"
 	visit "8 Winter Below"
 	visit "9 Spring Above"
+	visit "Aki'il"
 	visit "Al Dhanab"
 	visit "Alpha Arae"
 	visit "Alpha Centauri"
@@ -606,20 +623,28 @@ event "visit all"
 	visit "Da Ent"
 	visit "Da Lest"
 	visit "Dark Hills"
+	visit Delia
 	visit "Delta Capricorni"
 	visit "Delta Sagittarii"
 	visit "Delta Velorum"
+	visit Dixere
 	visit "Due Yoot"
 	visit "Ehma Ti"
 	visit "Epsilon Leonis"
+	visit Esix
 	visit "Fah Root"
 	visit "Fah Soom"
 	visit "Fallen Leaf"
 	visit "Far Horizon"
+	visit Fearis
 	visit "Fell Omen"
+	visit Feraticus
+	visit Fereti
 	visit "Four Pillars"
 	visit "Gamma Cassiopeiae"
 	visit "Gamma Corvi"
+	visit Gerenus
+	visit Giribea
 	visit "Good Omen"
 	visit "Heia Due"
 	visit "Hevru Hai"
@@ -639,12 +664,19 @@ event "visit all"
 	visit "Kor Tar'bei"
 	visit "Kor Zena'i"
 	visit "Last Word"
+	visit Lire
 	visit "Lom Tahr"
 	visit "Lone Cloud"
 	visit "Mei Yohn"
+	visit Nona
 	visit "Over the Rainbow"
+	visit Paeli
+	visit Polerius
 	visit "Pug Iyik"
+	visit Queri
 	visit "Rati Cal"
+	visit Relifer
+	visit Ritilas
 	visit "Sagittarius A*"
 	visit "Silver Bell"
 	visit "Silver String"
@@ -947,6 +979,9 @@ event "visit all"
 	visit Zosma
 	visit Zubenelgenubi
 	visit Zubeneschamali
+	"visit planet" "Station Cian"
+	"visit planet" "Starting Rubin"
+	"visit planet" "Pelubta Station"
 
 #Vanilla visit event
 event "visit vanilla"
@@ -1683,4 +1718,40 @@ event "visit vanilla"
 	visit Zosma
 	visit Zubenelgenubi
 	visit Zubeneschamali
+	#Too lazy for this
+	visit "Aki'il"
+	visit Delia
+	visit Dixere
+	visit Esix
+	visit Fearis
+	visit Feraticus
+	visit Fereti
+	visit Gerenus
+	visit Giribea
+	visit Lire
+	visit Nona
+	visit Paeli
+	visit Polerius
+	visit Queri
+	visit Relifer
+	visit Ritilas
+	"visit planet" Alix
+	"visit planet" Celeatis
+	"visit planet" "Ceilia'sei"
+	"visit planet" Veliante
+	"visit planet" Eavine
+	"visit planet" "Ember Graveyard"
+	"visit planet" "Graveyard Wormhole (Unstable)"
+	"visit planet" "Graveyard Wormhole (Stable)"
+	"visit planet" "Kaeyin"
+	"visit planet" Osaeli
+	"visit planet" Palarei
+	"visit planet" "Parii'het"
+	"visit planet" "Querii'ka"
+	"visit planet" Retilie
+	"visit planet" "Seli'het"
+	"visit planet" Siteria
+	"visit planet" "Station Cian"
+	"visit planet" "Starting Rubin"
+	"visit planet" "Pelubta Station"
 
