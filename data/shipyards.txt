@@ -314,6 +314,8 @@ shipyard Korath-Variants
 
 shipyard Other-Kreo
 	"Archon"
+	"Faes'mar"
+	"Maeri'het"
 	"Nanobot"
 	"Pug Arfecta"
 	"Pug Enfolta"
@@ -321,10 +323,21 @@ shipyard Other-Kreo
 	"Pug Zibruka"
 	"Quarg Skylark"
 	"Quarg Wardragon"
+	"Selii'mar"
+	"Telis'het"
 	"Void Sprite"
 
 shipyard Other-Variants
 	"Archon (Cloaked)"
+	"Faes'mar (Strong)"
+	"Maeri'het (Disable-able)"
+	"Maeri'het (EMP)"
+	"Maeri'het (EMP, Disable-able)"
+	"Telis'het (Disable-able)"
+	"Telis'het (EMP)"
+	"Telis'het (EMP, Disable-able)"
+	"Telis'het (Guns)"
+	"Telis'het (Guns, Disable-able)"
 	"Void Sprite (Infant)"
 
 
