@@ -328,6 +328,7 @@ shipyard Other-Kreo
 	"Quarg Skylark"
 	"Quarg Wardragon"
 	"Selii'mar"
+	Subsidurial
 	"Telis'het"
 	"Void Sprite"
 
