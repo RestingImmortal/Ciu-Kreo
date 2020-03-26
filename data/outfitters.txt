@@ -347,6 +347,7 @@ outfitter Other-Kreo
 outfitter Remnant-Kreo
 	"Aeon Cell"
 	"Anvil-Class Engine"
+	"Bellows-Class Afterburner"
 	"Bunk Room"
 	"Cargo Expansion"
 	"Crucible-Class Steering"
