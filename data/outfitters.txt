@@ -361,6 +361,7 @@ outfitter Remnant-Kreo
 	"Forge-Class Thruster"
 	"Hyperdrive"
 	"Inhibitor Cannon"
+	"Inhibitor Turret"
 	"Millennium Cell"
 	"Outfits Expansion"
 	"Point Defense Turret"
