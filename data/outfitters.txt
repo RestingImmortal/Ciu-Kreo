@@ -18,6 +18,7 @@ outfitter Coalition-Kreo
 	"Heliarch Repulsor"
 	"Hyperdrive"
 	"Ion Rain Gun"
+	"Ion Hail Turret"
 	"Large Battery Module"
 	"Large Collector Module"
 	"Large Reactor Module"
