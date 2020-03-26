@@ -24,10 +24,12 @@ shipyard Coalition-Kreo
 
 shipyard Coalition-Variants
 	"Heliarch Interdictor (Bombardment)"
+	"Heliarch Interdictor (Ions)"
 	"Heliarch Neutralizer (Missile)"
 	"Heliarch Neutralizer (Nimble)"
 	"Heliarch Neutralizer (Scrappy)"
 	"Heliarch Punisher (Interdicting)"
+	"Heliarch Punisher (Ions)"
 	"Heliarch Punisher (Missile)"
 	"Heliarch Punisher (Scrappy)"
 
