@@ -2080,6 +2080,19 @@ system Wanderer
 	trade Metal 1000
 	trade Plastic 1000
 
+planet Coalition-Gateway
+
+planet Hai-Gateway
+
+planet Human-Gateway
+
+planet Korath-Gateway
+
+planet Remnant-Gateway
+
+planet Vanilla-Gateway
+
+planet Wanderer-Gateway
 
 planet Wanderer
 	attributes "deprecated control" "vanilla kreo" kreo "variant control"
@@ -2099,4 +2112,3 @@ system Ka'ch'chrai
 	add object Wanderer-Gateway
 		distance 3600
 		sprite planet/kreo-warp
-
